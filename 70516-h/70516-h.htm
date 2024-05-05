@@ -1,0 +1,3205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+      Now We Are Six, by A. A. Milne—A Project Gutenberg eBook
+    </title>
+    <link rel="icon" href="images/cover.jpg" type="image/x-cover">
+    <style>
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2,h3 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.tb   {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+@media print { hr.chap {display: none; visibility: hidden;} }
+hr.full {width: 95%; margin-left: 2.5%; margin-right: 2.5%;}
+
+.center   {text-align: center;}
+
+/* Images */
+.figcenter   {
+    margin: auto;
+    text-align: center;
+}
+
+div.titlepage {
+  text-align: center;
+  page-break-before: always;
+  page-break-after: always;
+}
+
+div.titlepage p {
+  text-align: center;
+  text-indent: 0em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 3em;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+table.autotable    { border-collapse: collapse; }
+table.autotable td,
+table.autotable th { padding: 4px; }
+
+.tdl      {text-align: left;}
+.tdr      {text-align: right;}
+.tdc      {text-align: center;}
+
+.center   {text-align: center;}
+
+.right    {text-align: right;}
+
+.smcap    {font-variant: small-caps;}
+
+/* Images */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+img.w100 {width: 100%;}
+
+
+.figcenter {
+    margin: auto;
+    text-align: center;
+    page-break-inside: avoid;
+    max-width: 100%;
+}
+
+x-ebookmaker-drop {display: none;}
+
+/* Footnotes */
+.footnotes        {border: 1px dashed;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+/* Poetry */
+/* uncomment the next line for centered poetry */
+.poetry-container {display: flex; justify-content: center;}
+.poetry-container {text-align: center;}
+.poetry           {text-align: left; margin-left: 5%; margin-right: 5%;}
+.poetry .stanza   {margin: 1em auto;}
+.poetry .verse    {text-indent: -3em; padding-left: 3em;}
+.poetry .indent0 {text-indent: -3em;}
+.poetry .indent10 {text-indent: 2em;}
+.poetry .indent11 {text-indent: 2.5em;}
+.poetry .indent12 {text-indent: 3em;}
+.poetry .indent13 {text-indent: 3.5em;}
+.poetry .indent18 {text-indent: 6em;}
+.poetry .indent2 {text-indent: -2em;}
+.poetry .indent20 {text-indent: 7em;}
+.poetry .indent21 {text-indent: 7.5em;}
+.poetry .indent22 {text-indent: 8em;}
+.poetry .indent4 {text-indent: -1em;}
+.poetry .indent6 {text-indent: 0em;}
+.poetry .indent8 {text-indent: 1em;}
+
+.ph1 { text-align: center; text-indent: 0em; }
+.ph1 { font-size: medium; margin: .83em auto; }
+
+.ph2 { text-align: right; text-indent: 0em; }
+.ph2 { font-size: medium; margin: .83em auto; }
+
+/* Illustration classes */
+.illowp100 {width: 100%;}
+.illowp28 {width: 28%;}
+.x-ebookmaker .illowp28 {width: 100%;}
+.illowp32 {width: 32%;}
+.x-ebookmaker .illowp32 {width: 100%;}
+.illowp33 {width: 33%;}
+.x-ebookmaker .illowp33 {width: 100%;}
+.illowp34 {width: 34%;}
+.x-ebookmaker .illowp34 {width: 100%;}
+.illowp36 {width: 36%;}
+.x-ebookmaker .illowp36 {width: 100%;}
+.illowp37 {width: 37%;}
+.x-ebookmaker .illowp37 {width: 100%;}
+.illowp39 {width: 39%;}
+.x-ebookmaker .illowp39 {width: 100%;}
+.illowp40 {width: 40%;}
+.x-ebookmaker .illowp40 {width: 100%;}
+.illowp44 {width: 44%;}
+.x-ebookmaker .illowp44 {width: 100%;}
+.illowp45 {width: 45%;}
+.x-ebookmaker .illowp45 {width: 100%;}
+.illowp46 {width: 46%;}
+.x-ebookmaker .illowp46 {width: 100%;}
+.illowp47 {width: 47%;}
+.x-ebookmaker .illowp47 {width: 100%;}
+.illowp49 {width: 49%;}
+.x-ebookmaker .illowp49 {width: 100%;}
+.illowp50 {width: 50%;}
+.x-ebookmaker .illowp50 {width: 100%;}
+.illowp51 {width: 51%;}
+.x-ebookmaker .illowp51 {width: 100%;}
+.illowp52 {width: 52%;}
+.x-ebookmaker .illowp52 {width: 100%;}
+.illowp53 {width: 53%;}
+.x-ebookmaker .illowp53 {width: 100%;}
+.illowp54 {width: 54%;}
+.x-ebookmaker .illowp54 {width: 100%;}
+.illowp55 {width: 55%;}
+.x-ebookmaker .illowp55 {width: 100%;}
+.illowp56 {width: 56%;}
+.x-ebookmaker .illowp56 {width: 100%;}
+.illowp57 {width: 57%;}
+.x-ebookmaker .illowp57 {width: 100%;}
+.illowp58 {width: 58%;}
+.x-ebookmaker .illowp58 {width: 100%;}
+.illowp59 {width: 59%;}
+.x-ebookmaker .illowp59 {width: 100%;}
+.illowp60 {width: 60%;}
+.x-ebookmaker .illowp60 {width: 100%;}
+.illowp61 {width: 61%;}
+.x-ebookmaker .illowp61 {width: 100%;}
+.illowp62 {width: 62%;}
+.x-ebookmaker .illowp62 {width: 100%;}
+.illowp63 {width: 63%;}
+.x-ebookmaker .illowp63 {width: 100%;}
+.illowp64 {width: 64%;}
+.x-ebookmaker .illowp64 {width: 100%;}
+.illowp66 {width: 66%;}
+.x-ebookmaker .illowp66 {width: 100%;}
+.illowp67 {width: 67%;}
+.x-ebookmaker .illowp67 {width: 100%;}
+.illowp68 {width: 68%;}
+.x-ebookmaker .illowp68 {width: 100%;}
+.illowp70 {width: 70%;}
+.x-ebookmaker .illowp70 {width: 100%;}
+.illowp71 {width: 71%;}
+.x-ebookmaker .illowp71 {width: 100%;}
+.illowp73 {width: 73%;}
+.x-ebookmaker .illowp73 {width: 100%;}
+.illowp74 {width: 74%;}
+.x-ebookmaker .illowp74 {width: 100%;}
+.illowp75 {width: 75%;}
+.x-ebookmaker .illowp75 {width: 100%;}
+.illowp77 {width: 77%;}
+.x-ebookmaker .illowp77 {width: 100%;}
+.illowp78 {width: 78%;}
+.x-ebookmaker .illowp78 {width: 100%;}
+.illowp79 {width: 79%;}
+.x-ebookmaker .illowp79 {width: 100%;}
+.illowp81 {width: 81%;}
+.x-ebookmaker .illowp81 {width: 100%;}
+.illowp82 {width: 82%;}
+.x-ebookmaker .illowp82 {width: 100%;}
+.illowp83 {width: 83%;}
+.x-ebookmaker .illowp83 {width: 100%;}
+.illowp84 {width: 84%;}
+.x-ebookmaker .illowp84 {width: 100%;}
+.illowp85 {width: 85%;}
+.x-ebookmaker .illowp85 {width: 100%;}
+.illowp87 {width: 87%;}
+.x-ebookmaker .illowp87 {width: 100%;}
+.illowp88 {width: 88%;}
+.x-ebookmaker .illowp88 {width: 100%;}
+.illowp90 {width: 90%;}
+.x-ebookmaker .illowp90 {width: 100%;}
+.illowp91 {width: 91%;}
+.x-ebookmaker .illowp91 {width: 100%;}
+.illowp92 {width: 92%;}
+.x-ebookmaker .illowp92 {width: 100%;}
+.illowp93 {width: 93%;}
+.x-ebookmaker .illowp93 {width: 100%;}
+.illowp94 {width: 94%;}
+.x-ebookmaker .illowp94 {width: 100%;}
+.illowp97 {width: 97%;}
+.x-ebookmaker .illowp97 {width: 100%;}
+
+    </style>
+</head>
+<body>
+
+<div class="figcenter x-ebookmaker-drop">
+  <img src="images/illusc.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+<div class="titlepage">
+
+<h1>NOW WE ARE SIX</h1>
+
+<h2>BY A.A. MILNE WITH<br>
+DECORATIONS BY ERNEST H. SHEPARD</h2>
+
+<div class="figcenter illowp36" id="tp" style="max-width: 15.1875em;">
+  <img class="w100" src="images/tp.jpg" alt="">
+</div>
+
+<p>NEW YORK E. P. DUTTON &amp; CO., INC.</p>
+
+<p>NOW WE ARE SIX, COPYRIGHT, 1927,<br>
+BY E. P. DUTTON &amp; CO., INC.<br>
+ALL RIGHTS RESERVED<br>
+PRINTED IN U.S.A.</p>
+
+<table class="autotable">
+<tr><td class="tdl">First Printing</td><td class="tdr">Sept., 1927</td></tr>
+<tr><td class="tdl">Tenth Printing        </td><td class="tdr">Sept., 1927</td></tr>
+<tr><td class="tdl">Twentieth Printing      </td><td class="tdr">Sept., 1927</td></tr>
+<tr><td class="tdl">Thirtieth Printing      </td><td class="tdr">Sept., 1927</td></tr>
+<tr><td class="tdl">Thirty-third Printing    </td><td class="tdr">Sept., 1927</td></tr>
+<tr><td class="tdl">Thirty-fifth Printing     </td><td class="tdr">Nov., 1927</td></tr>
+<tr><td class="tdl">Fortieth Printing       </td><td class="tdr">Nov., 1927</td></tr>
+<tr><td class="tdl">Forty-fifth Printing     </td><td class="tdr">Nov., 1927</td></tr>
+<tr><td class="tdl">Fiftieth Printing       </td><td class="tdr">Nov., 1927</td></tr>
+<tr><td class="tdl">Fifty-fifth Printing     </td><td class="tdr">Dec., 1927</td></tr>
+<tr><td class="tdl">Sixtieth Printing       </td><td class="tdr">Dec., 1927</td></tr>
+<tr><td class="tdl">Sixty-fifth Printing     </td><td class="tdr">Dec., 1927</td></tr>
+<tr><td class="tdl">Seventieth Printing      </td><td class="tdr">Dec., 1927</td></tr>
+<tr><td class="tdl">Seventy-fourth Printing    </td><td class="tdr">Dec., 1928</td></tr>
+<tr><td class="tdl">Seventy-eighth Printing   </td><td class="tdr">Sept., 1929</td></tr>
+<tr><td class="tdl">Eightieth Printing       </td><td class="tdr">May, 1930</td></tr>
+<tr><td class="tdl">Eighty-fourth Printing     </td><td class="tdr">May, 1931</td></tr>
+<tr><td class="tdl">Eighty-sixth Printing     </td><td class="tdr">July, 1932</td></tr>
+<tr><td class="tdl">Eighty-ninth Printing     </td><td class="tdr">July, 1933</td></tr>
+
+<tr><td class="tdl">New Edition          </td><td class="tdr">Aug., 1935</td></tr>
+
+<tr><td class="tdl">Ninety-first Printing     </td><td class="tdr">Aug., 1935</td></tr>
+<tr><td class="tdl">Ninety-fourth Printing    </td><td class="tdr">Aug., 1935</td></tr>
+</table>
+
+<hr class="chap">
+
+<div class="figcenter illowp52" id="illusc" style="max-width: 21.8125em;">
+  <img class="w100" src="images/illus1.jpg" alt="">
+</div>
+
+<p>TO<br>
+ANNE DARLINGTON<br>
+NOW SHE IS SEVEN<br>
+AND<br>
+BECAUSE SHE IS<br>
+SO<br>
+SPESHAL</p>
+
+</div>
+
+<hr class="chap">
+
+
+<h3>NOW WE ARE SIX</h3>
+
+<hr class="chap">
+
+
+<h3>INTRODUCTION</h3>
+
+
+<p>When you are reciting poetry, which is a thing we never do, you find
+sometimes, just as you are beginning, that Uncle John is still telling
+Aunt Rose that if he can't find his spectacles he won't be able to hear
+properly, and does she know where they are; and by the time everybody
+has stopped looking for them, you are at the last verse, and in another
+minute they will be saying, "Thank-you, thank-you," without really
+knowing what it was all about. So, next time, you are more careful;
+and, just before you begin you say, "<i>Er-h'r'm!</i>" very loudly,
+which means, "Now then, here we are"; and everybody stops talking and
+looks at you: which is what you want. So then you get in the way of
+saying it whenever you are asked to recite ... and sometimes it is just
+as well, and sometimes it isn't.... And by and by you find yourself
+saying it without thinking. Well, this bit which I am writing now,
+called Introduction, is really the <i>er-h'r'm</i> of the book, and I
+have put it in, partly so as not to take you by surprise, and partly
+because I can't do without it now. There are some very clever writers
+who say that it is quite easy not to have an <i>er-h'r'm</i>, but I
+don't agree with them. I think it is much easier not to have all the
+rest of the book.</p>
+
+<p>What I want to explain in the Introduction is this. We have been nearly
+three years writing this book. We began it when we were very young ...
+and now we are six. So, of course, bits of it seem rather baby-ish to
+us, almost as if they had slipped out of some other book by mistake.
+On page whatever-it-is there is a thing which is simply three-ish, and
+when we read it to ourselves just now we said, "Well, well, well," and
+turned over rather quickly. So we want you to know that the name of the
+book doesn't mean that this is us being six all the time, but that it
+is about as far as we've got at present, and we half think of stopping
+there.</p>
+
+<p class="ph2">A. A. M.</p>
+
+<p>P.S.—Pooh wants us to say that he thought it was a different book; and
+he hopes you won't mind, but he walked through it one day, looking for
+his friend Piglet, and sat down on some of the pages by mistake.</p>
+
+<hr class="chap">
+
+
+<h3>CONTENTS</h3>
+
+
+
+<table class="autotable">
+<tr><td class="tdl"><a href="#SOLITUDE">SOLITUDE</a></td></tr>
+<tr><td class="tdl"><a href="#KING_JOHNS_CHRISTMAS">KING JOHN'S CHRISTMAS</a></td></tr>
+<tr><td class="tdl"><a href="#BUSY">BUSY</a></td></tr>
+<tr><td class="tdl"><a href="#SNEEZLES">SNEEZLES</a></td></tr>
+<tr><td class="tdl"><a href="#BINKER">BINKER</a></td></tr>
+<tr><td class="tdl"><a href="#CHERRY_STONES">CHERRY STONES</a></td></tr>
+<tr><td class="tdl"><a href="#THE_KNIGHT_WHOSE_ARMOUR_DIDNT_SQUEAK">THE KNIGHT WHOSE ARMOUR DIDN'T SQUEAK</a></td></tr>
+<tr><td class="tdl"><a href="#BUTTERCUP_DAYS">BUTTERCUP DAYS</a></td></tr>
+<tr><td class="tdl"><a href="#THE_CHARCOAL-BURNER">THE CHARCOAL-BURNER</a></td></tr>
+<tr><td class="tdl"><a href="#US_TWO">US TWO</a></td></tr>
+<tr><td class="tdl"><a href="#THE_OLD_SAILOR">THE OLD SAILOR</a></td></tr>
+<tr><td class="tdl"><a href="#THE_ENGINEER">THE ENGINEER</a></td></tr>
+<tr><td class="tdl"><a href="#JOURNEYS_END">JOURNEY'S END</a></td></tr>
+<tr><td class="tdl"><a href="#FURRY_BEAR">FURRY BEAR</a></td></tr>
+<tr><td class="tdl"><a href="#FORGIVEN">FORGIVEN</a></td></tr>
+<tr><td class="tdl"><a href="#THE_EMPERORS_RHYME">THE EMPEROR'S RHYME</a></td></tr>
+<tr><td class="tdl"><a href="#KNIGHT-IN-ARMOUR">KNIGHT-IN-ARMOUR</a></td></tr>
+<tr><td class="tdl"><a href="#COME_OUT_WITH_ME">COME OUT WITH ME</a></td></tr>
+<tr><td class="tdl"><a href="#DOWN_BY_THE_POND">DOWN BY THE POND</a></td></tr>
+<tr><td class="tdl"><a href="#THE_LITTLE_BLACK_HEN">THE LITTLE BLACK HEN</a></td></tr>
+<tr><td class="tdl"><a href="#THE_FRIEND">THE FRIEND</a></td></tr>
+<tr><td class="tdl"><a href="#THE_GOOD_LITTLE_GIRL">THE GOOD LITTLE GIRL</a></td></tr>
+<tr><td class="tdl"><a href="#A_THOUGHT">A THOUGHT</a></td></tr>
+<tr><td class="tdl"><a href="#KING_HILARY_AND_THE_BEGGERMAN">KING HILARY AND THE BEGGERMAN</a></td></tr>
+<tr><td class="tdl"><a href="#SWING_SONG">SWING SONG</a></td></tr>
+<tr><td class="tdl"><a href="#EXPLAINED">EXPLAINED</a></td></tr>
+<tr><td class="tdl"><a href="#TWICE_TIMES">TWICE TIMES</a></td></tr>
+<tr><td class="tdl"><a href="#THE_MORNING_WALK">THE MORNING WALK</a></td></tr>
+<tr><td class="tdl"><a href="#CRADLE_SONG">CRADLE SONG</a></td></tr>
+<tr><td class="tdl"><a href="#WAITING_AT_THE_WINDOW">WAITING AT THE WINDOW</a></td></tr>
+<tr><td class="tdl"><a href="#PINKLE_PURR">PINKLE PURR</a></td></tr>
+<tr><td class="tdl"><a href="#WIND_ON_THE_HILL">WIND ON THE HILL</a></td></tr>
+<tr><td class="tdl"><a href="#FORGOTTEN">FORGOTTEN</a></td></tr>
+<tr><td class="tdl"><a href="#IN_THE_DARK">IN THE DARK</a></td></tr>
+<tr><td class="tdl"><a href="#THE_END">THE END</a></td></tr>
+</table>
+
+<hr class="chap">
+
+
+<h3>NOW WE ARE SIX</h3>
+
+
+<hr class="chap">
+
+
+<h3 id="SOLITUDE">&nbsp;</h3>
+
+<div class="figcenter illowp70" id="illus2" style="max-width: 29.25em;">
+  <img class="w100" src="images/illus2.jpg" alt="">
+</div>
+
+<h3>SOLITUDE</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I have a house where I go</div>
+    <div class="verse indent2">When there's too many people,</div>
+    <div class="verse indent0">I have a house where I go</div>
+    <div class="verse indent2">Where no one can be;</div>
+    <div class="verse indent0">I have a house where I go,</div>
+    <div class="verse indent0">Where nobody ever says "No";</div>
+    <div class="verse indent0">Where no one says anything—so</div>
+    <div class="verse indent2">There is no one but me.</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="KING_JOHNS_CHRISTMAS">&nbsp;</h3>
+
+<div class="figcenter illowp85" id="illus3" style="max-width: 35.5em;">
+  <img class="w100" src="images/illus3.jpg" alt="">
+</div>
+
+<h3>KING JOHN'S CHRISTMAS</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man—</div>
+    <div class="verse indent2">He had his little ways.</div>
+    <div class="verse indent0">And sometimes no one spoke to him</div>
+    <div class="verse indent2">For days and days and days.</div>
+    <div class="verse indent0">And men who came across him,</div>
+    <div class="verse indent2">When walking in the town,</div>
+    <div class="verse indent0">Gave him a supercilious stare,</div>
+    <div class="verse indent0">Or passed with noses in the air—</div>
+    <div class="verse indent0">And bad King John stood dumbly there,</div>
+    <div class="verse indent2">Blushing beneath his crown.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man,</div>
+    <div class="verse indent2">And no good friends had he.</div>
+    <div class="verse indent0">He stayed in every afternoon...</div>
+    <div class="verse indent2">But no one came to tea.</div>
+    <div class="verse indent0">And, round about December,</div>
+    <div class="verse indent2">The cards upon his shelf</div>
+    <div class="verse indent0">Which wished him lots of Christmas cheer,</div>
+    <div class="verse indent0">And fortune in the coming year,</div>
+    <div class="verse indent0">Were never from his near and dear,</div>
+    <div class="verse indent2">But only from himself.</div>
+  </div>
+
+<div class="figcenter illowp60" id="illus4" style="max-width: 37em;">
+  <img class="w100" src="images/illus4.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man,</div>
+    <div class="verse indent2">Yet had his hopes and fears.</div>
+    <div class="verse indent0">They'd given him no present now</div>
+    <div class="verse indent2">For years and years and years.</div>
+    <div class="verse indent0">But every year at Christmas,</div>
+    <div class="verse indent2">While minstrels stood about,</div>
+    <div class="verse indent0">Collecting tribute from the young</div>
+    <div class="verse indent0">For all the songs they might have sung,</div>
+    <div class="verse indent0">He stole away upstairs and hung</div>
+    <div class="verse indent2">A hopeful stocking out.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man,</div>
+    <div class="verse indent2">He lived his life aloof;</div>
+    <div class="verse indent0">Alone he thought a message out</div>
+    <div class="verse indent2">While climbing up the roof.</div>
+    <div class="verse indent0">He wrote it down and propped it</div>
+    <div class="verse indent2">Against the chimney stack:</div>
+    <div class="verse indent0">"TO ALL AND SUNDRY—NEAR AND FAR—</div>
+    <div class="verse indent0">F. CHRISTMAS IN PARTICULAR."</div>
+    <div class="verse indent0">And signed it not "Johannes R."</div>
+    <div class="verse indent2">But very humbly, "JACK."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">"I want some crackers,</div>
+    <div class="verse indent2">And I want some candy;</div>
+    <div class="verse indent0">I think a box of chocolates</div>
+    <div class="verse indent2">Would come in handy;</div>
+    <div class="verse indent0">I don't mind oranges,</div>
+    <div class="verse indent2">I do like nuts!</div>
+    <div class="verse indent0">And I SHOULD like a pocket-knife</div>
+    <div class="verse indent2">That really cuts.</div>
+    <div class="verse indent0">And, oh! Father Christmas, if you love me at all,</div>
+    <div class="verse indent0">Bring me a big, red india-rubber ball!"</div>
+  </div>
+
+<div class="figcenter illowp83" id="illus5" style="max-width: 34.625em;">
+  <img class="w100" src="images/illus5.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man—</div>
+    <div class="verse indent2">He wrote this message out,</div>
+    <div class="verse indent0">And gat him to his room again,</div>
+    <div class="verse indent2">Descending by the spout.</div>
+    <div class="verse indent0">And all that night he lay there,</div>
+    <div class="verse indent2">A prey to hopes and fears.</div>
+    <div class="verse indent0">"I think that's him a-coming now,"</div>
+    <div class="verse indent0">(Anxiety bedewed his brow.)</div>
+    <div class="verse indent0">"He'll bring one present, anyhow—</div>
+    <div class="verse indent2">The first I've had for years."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">"Forget about the crackers,</div>
+    <div class="verse indent2">And forget about the candy;</div>
+    <div class="verse indent0">I'm sure a box of chocolates</div>
+    <div class="verse indent2">Would never come in handy;</div>
+    <div class="verse indent0">I don't like oranges,</div>
+    <div class="verse indent2">I don't want nuts,</div>
+    <div class="verse indent0">And I HAVE got a pocket-knife</div>
+    <div class="verse indent2">That almost cuts.</div>
+    <div class="verse indent0">But, oh! Father Christmas, if you love me at all,</div>
+    <div class="verse indent0">Bring me a big, red india-rubber ball!"</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">King John was not a good man—</div>
+    <div class="verse indent2">Next morning when the sun</div>
+    <div class="verse indent0">Rose up to tell a waiting world</div>
+    <div class="verse indent2">That Christmas had begun,</div>
+    <div class="verse indent0">And people seized their stockings,</div>
+    <div class="verse indent2">And opened them with glee,</div>
+    <div class="verse indent0">And crackers, toys and games appeared,</div>
+    <div class="verse indent0">And lips with sticky sweets were smeared,</div>
+    <div class="verse indent0">King John said grimly: "As I feared,</div>
+    <div class="verse indent2">Nothing again for me!"</div>
+  </div>
+
+<div class="figcenter illowp47" id="illus6" style="max-width: 19.875em;">
+  <img class="w100" src="images/illus6.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">"I did want crackers,</div>
+    <div class="verse indent2">And I did want candy;</div>
+    <div class="verse indent0">I know a box of chocolates</div>
+    <div class="verse indent2">Would come in handy;</div>
+    <div class="verse indent0">I do love oranges,</div>
+    <div class="verse indent2">I did want nuts.</div>
+    <div class="verse indent0">I haven't got a pocket-knife—</div>
+    <div class="verse indent2">Not one that cuts.</div>
+    <div class="verse indent0">And, oh! if Father Christmas had loved me at all,</div>
+    <div class="verse indent0">He would have brought a big, red india-rubber ball!"</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">King John stood by the window,</div>
+    <div class="verse indent2">And frowned to see below</div>
+    <div class="verse indent0">The happy bands of boys and girls</div>
+    <div class="verse indent2">All playing in the snow.</div>
+    <div class="verse indent0">A while he stood there watching,</div>
+    <div class="verse indent2">And envying them all...</div>
+    <div class="verse indent0">When through the window big and red</div>
+    <div class="verse indent0">There hurtled by his royal head,</div>
+    <div class="verse indent0">And bounced and fell upon the bed,</div>
+    <div class="verse indent2">An india-rubber ball!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">AND OH, FATHER CHRISTMAS,</div>
+    <div class="verse indent0">MY BLESSINGS ON YOU FALL</div>
+    <div class="verse indent4">FOR BRINGING HIM</div>
+    <div class="verse indent4">A BIG, RED,</div>
+    <div class="verse indent4">INDIA-RUBBER</div>
+    <div class="verse indent4">BALL!</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp32" id="illus7" style="max-width: 13.5em;">
+  <img class="w100" src="images/illus7.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="BUSY">&nbsp;</h3>
+
+
+<h3>BUSY</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I think I am a Muffin Man. I haven't got a bell,</div>
+    <div class="verse indent0">I haven't got the muffin things that muffin people sell.</div>
+
+<div class="figcenter illowp61" id="illus8" style="max-width: 25.4375em;">
+  <img class="w100" src="images/illus8.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Perhaps I am a Postman. No, I think I am a Tram.</div>
+
+<div class="figcenter illowp75" id="illus9" style="max-width: 31.5em;">
+  <img class="w100" src="images/illus9.jpg" alt="">
+</div>
+
+    <div class="verse indent0">I'm feeling rather funny and I don't know <i>what</i> I am—</div>
+  </div>
+
+<div class="figcenter illowp66" id="illus10" style="max-width: 27.5625em;">
+  <img class="w100" src="images/illus10.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent13">BUT</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about I go—</div>
+    <div class="verse indent8">All round the table,</div>
+    <div class="verse indent8">The table in the nursery—</div>
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about I go;</div>
+  </div>
+
+<div class="figcenter illowp82" id="illus11" style="max-width: 34.375em;">
+  <img class="w100" src="images/illus11.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">I think I am a Traveller escaping from a Bear;</div>
+
+<div class="figcenter illowp66" id="illus12" style="max-width: 27.5em;">
+  <img class="w100" src="images/illus12.jpg" alt="">
+</div>
+
+    <div class="verse indent0">I think I am an Elephant,</div>
+    <div class="verse indent0">Behind another Elephant</div>
+    <div class="verse indent0">Behind <i>another</i> Elephant who isn't really there....</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus13" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus13.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent13">SO</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about and <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent12">I go.</div>
+  </div>
+
+<div class="figcenter illowp78" id="illus14" style="max-width: 32.875em;">
+  <img class="w100" src="images/illus14.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">I think I am a Ticket Man who's selling tickets—please,</div>
+
+<div class="figcenter illowp60" id="illus15" style="max-width: 25.3125em;">
+  <img class="w100" src="images/illus15.jpg" alt="">
+</div>
+
+    <div class="verse indent0">I think I am a Doctor who is visiting a Sneeze;</div>
+
+<div class="figcenter illowp51" id="illus16" style="max-width: 21.5em;">
+  <img class="w100" src="images/illus16.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Perhaps I'm just a Nanny who is walking with a pram</div>
+    <div class="verse indent0">I'm feeling rather funny and I don't know <i>what</i> I am—</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent13">BUT</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about I go—</div>
+    <div class="verse indent8">All around the table,</div>
+    <div class="verse indent8">The table in the nursery—</div>
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about I go;</div>
+  </div>
+
+<div class="figcenter illowp53" id="illus17" style="max-width: 22.1875em;">
+  <img class="w100" src="images/illus17.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">I think I am a Puppy, so I'm hanging out my tongue;</div>
+
+<div class="figcenter illowp49" id="illus18" style="max-width: 20.8125em;">
+  <img class="w100" src="images/illus18.jpg" alt="">
+</div>
+
+    <div class="verse indent0">I think I am a Camel who</div>
+    <div class="verse indent0">Is looking for a Camel who</div>
+    <div class="verse indent0">Is looking for a Camel who is looking for its Young....</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent13">SO</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8"><i>Round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about and <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent8">And <i>round</i> about</div>
+    <div class="verse indent12">I go.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus19" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus19.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="SNEEZLES">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus20" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus20.jpg" alt="">
+</div>
+
+
+<h3>SNEEZLES</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Christopher Robin</div>
+    <div class="verse indent0">Had wheezles</div>
+    <div class="verse indent0">And sneezles,</div>
+    <div class="verse indent0">They bundled him</div>
+    <div class="verse indent0">Into</div>
+    <div class="verse indent0">His bed.</div>
+    <div class="verse indent0">They gave him what goes</div>
+    <div class="verse indent0">With a cold in the nose,</div>
+    <div class="verse indent0">And some more for a cold</div>
+    <div class="verse indent0">In the head.</div>
+    <div class="verse indent0">They wondered</div>
+    <div class="verse indent0">If wheezles</div>
+    <div class="verse indent0">Could turn</div>
+    <div class="verse indent0">Into measles,</div>
+    <div class="verse indent0">If sneezles</div>
+    <div class="verse indent0">Would turn</div>
+    <div class="verse indent0">Into mumps;</div>
+    <div class="verse indent0">They examined his chest</div>
+    <div class="verse indent0">For a rash,</div>
+    <div class="verse indent0">And the rest</div>
+    <div class="verse indent0">Of his body for swellings and lumps.</div>
+    <div class="verse indent0">They sent for some doctors</div>
+    <div class="verse indent0">In sneezles</div>
+    <div class="verse indent0">And wheezles</div>
+    <div class="verse indent0">To tell them what ought</div>
+    <div class="verse indent0">To be done.</div>
+  </div>
+
+<div class="figcenter illowp97" id="illus21" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus21.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">All sorts and conditions</div>
+    <div class="verse indent0">Of famous physicians</div>
+    <div class="verse indent0">Came hurrying round</div>
+    <div class="verse indent0">At a run.</div>
+    <div class="verse indent0">They all made a note</div>
+    <div class="verse indent0">Of the state of his throat,</div>
+    <div class="verse indent0">They asked if he suffered from thirst;</div>
+    <div class="verse indent0">They asked if the sneezles</div>
+    <div class="verse indent0">Came <i>after</i> the wheezles,</div>
+    <div class="verse indent0">Or if the first sneezle</div>
+    <div class="verse indent0">Came first.</div>
+    <div class="verse indent0">They said, "If you teazle</div>
+    <div class="verse indent0">A sneezle</div>
+    <div class="verse indent0">Or wheezle,</div>
+    <div class="verse indent0">A measle</div>
+    <div class="verse indent0">May easily grow.</div>
+    <div class="verse indent0">But humour or pleazle</div>
+    <div class="verse indent0">The wheezle</div>
+    <div class="verse indent0">Or sneezle,</div>
+    <div class="verse indent0">The measle</div>
+    <div class="verse indent0">Will certainly go."</div>
+    <div class="verse indent0">They expounded the reazles</div>
+    <div class="verse indent0">For sneezles</div>
+    <div class="verse indent0">And wheezles,</div>
+    <div class="verse indent0">The manner of measles</div>
+    <div class="verse indent0">When new.</div>
+    <div class="verse indent0">They said "If he freezles</div>
+    <div class="verse indent0">In draughts and in breezles,</div>
+    <div class="verse indent0">Then PHTHEEZLES</div>
+    <div class="verse indent0">May even ensue."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">*&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;*</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Christopher Robin</div>
+    <div class="verse indent0">Got up in the morning,</div>
+    <div class="verse indent0">The sneezles had vanished away.</div>
+    <div class="verse indent0">And the look in his eye</div>
+    <div class="verse indent0">Seemed to say to the sky,</div>
+    <div class="verse indent0">"<i>Now, how to amuse them to-day?</i>"</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp45" id="illus22" style="max-width: 18.875em;">
+  <img class="w100" src="images/illus22.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="BINKER">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus23" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus23.jpg" alt="">
+</div>
+
+<h3>BINKER</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Binker—what I call him—is a secret of my own,</div>
+    <div class="verse indent0">And Binker is the reason why I never feel alone.</div>
+    <div class="verse indent0">Playing in the nursery, sitting on the stair,</div>
+    <div class="verse indent0">Whatever I am busy at, Binker will be there.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Oh, Daddy is clever, he's a clever sort of man,</div>
+    <div class="verse indent4">And Mummy is the best since the world began,</div>
+    <div class="verse indent4">And Nanny is Nanny, and I call her Nan—</div>
+    <div class="verse indent18">But they can't</div>
+    <div class="verse indent18">See</div>
+    <div class="verse indent18">Binker.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Binker's always talking, 'cos I'm teaching him to speak:</div>
+    <div class="verse indent0">He sometimes likes to do it in a funny sort of squeak,</div>
+    <div class="verse indent0">And he sometimes likes to do it in a hoodling sort of roar ...</div>
+    <div class="verse indent0">And I have to do it for him 'cos his throat is rather sore.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Oh, Daddy is clever, he's a clever sort of man,</div>
+    <div class="verse indent4">And Mummy knows all that anybody can,</div>
+    <div class="verse indent4">And Nanny is Nanny, and I call her Nan—</div>
+    <div class="verse indent18">But they don't</div>
+    <div class="verse indent18">Know</div>
+    <div class="verse indent18">Binker.</div>
+  </div>
+
+<div class="figcenter illowp55" id="illus24" style="max-width: 23.1875em;">
+  <img class="w100" src="images/illus24.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Binker's brave as lions when we're running in the park;</div>
+    <div class="verse indent0">Binker's brave as tigers when we're lying in the dark;</div>
+    <div class="verse indent0">Binker's brave as elephants. He never, never cries ...</div>
+    <div class="verse indent0">Except (like other people) when the soap gets in his eyes.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Oh, Daddy is Daddy, he's a Daddy sort of man,</div>
+    <div class="verse indent4">And Mummy is as Mummy as anybody can,</div>
+    <div class="verse indent4">And Nanny is Nanny, and I call her Nan ...</div>
+    <div class="verse indent18">But they're not</div>
+    <div class="verse indent18">Like</div>
+    <div class="verse indent18">Binker.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus25" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus25.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Binker isn't greedy, but he does like things to eat,</div>
+    <div class="verse indent0">So I have to say to people when they're giving me a sweet,</div>
+    <div class="verse indent0">"Oh, Binker wants a chocolate, so could you give me two?"</div>
+    <div class="verse indent0">And then I eat it for him, 'cos his teeth are rather new.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Well, I'm very fond of Daddy, but he hasn't time to play,</div>
+    <div class="verse indent0">And I'm very fond of Mummy, but she sometimes goes away,</div>
+    <div class="verse indent0">And I'm often cross with Nanny when she wants to brush my hair ...</div>
+    <div class="verse indent0">But Binker's always Binker, and is certain to be there.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp68" id="illus26" style="max-width: 28.5625em;">
+  <img class="w100" src="images/illus26.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="CHERRY_STONES">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus27" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus27.jpg" alt="">
+</div>
+
+
+<h3>CHERRY STONES</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent4"><i>Tinker</i>, <i>Tailor</i>,</div>
+
+<div class="figcenter illowp100" id="illus28" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus28.jpg" alt="">
+</div>
+
+    <div class="verse indent4"><i>Soldier</i>, <i>Sailor</i>,</div>
+
+<div class="figcenter illowp100" id="illus29" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus29.jpg" alt="">
+</div>
+
+    <div class="verse indent4"><i>Rich Man</i>, <i>Poor Man</i>,</div>
+    <div class="verse indent4"><i>Ploughboy</i>, <i>Thief</i>—</div>
+
+<div class="figcenter illowp100" id="illus30" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus30.jpg" alt="">
+</div>
+
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">And what about a Cowboy,</div>
+    <div class="verse indent0">Policeman, Jailer,</div>
+    <div class="verse indent0">Engine-driver,</div>
+    <div class="verse indent0">Or Pirate Chief?</div>
+    <div class="verse indent0">What about a Postman—or a Keeper at the Zoo?</div>
+    <div class="verse indent0">What about the Circus Man who lets the people through?</div>
+    <div class="verse indent0">And the man who takes the pennies for the roundabouts and swings,</div>
+    <div class="verse indent0">Or the man who plays the organ, and the other man who sings?</div>
+    <div class="verse indent0">What about a Conjuror with rabbits in his pockets?</div>
+    <div class="verse indent0">What about a Rocket Man who's always making rockets?</div>
+    <div class="verse indent0">Oh, there's such a lot of things to do and such a lot to be</div>
+
+<div class="figcenter illowp100" id="illus31" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus31.jpg" alt="">
+</div>
+
+    <div class="verse indent0">That there's always lots of cherries on my little cherry tree!</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp52" id="illus32" style="max-width: 21.875em;">
+  <img class="w100" src="images/illus32.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="THE_KNIGHT_WHOSE_ARMOUR_DIDNT_SQUEAK">&nbsp;</h3>
+
+<div class="figcenter illowp75" id="illus33" style="max-width: 31.4375em;">
+  <img class="w100" src="images/illus33.jpg" alt="">
+</div>
+
+<h3>THE KNIGHT WHOSE ARMOUR DIDN'T SQUEAK</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Of all the Knights in Appledore</div>
+    <div class="verse indent2">The wisest was Sir Thomas Tom.</div>
+    <div class="verse indent0">He multiplied as far as four,</div>
+    <div class="verse indent2">And knew what nine was taken from</div>
+    <div class="verse indent0">To make eleven. He could write</div>
+    <div class="verse indent0">A letter to another Knight.</div>
+  </div>
+
+<div class="figcenter illowp75" id="illus34" style="max-width: 31.25em;">
+  <img class="w100" src="images/illus34.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">No other Knight in all the land</div>
+    <div class="verse indent2">Could do the things which he could do.</div>
+    <div class="verse indent0">Not only did he understand</div>
+    <div class="verse indent2">The way to polish swords, but knew</div>
+    <div class="verse indent0">What remedy a Knight should seek</div>
+    <div class="verse indent0">Whose armour had begun to squeak.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus35" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus35.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">And, if he didn't fight too much,</div>
+    <div class="verse indent2">It wasn't that he did not care</div>
+    <div class="verse indent0">For blips and buffetings and such,</div>
+    <div class="verse indent2">But felt that it was hardly fair</div>
+    <div class="verse indent0">To risk, by frequent injuries,</div>
+    <div class="verse indent0">A brain as delicate as his.</div>
+  </div>
+
+<div class="figcenter illowp88" id="illus36" style="max-width: 36.75em;">
+  <img class="w100" src="images/illus36.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">His castle (Castle Tom) was set</div>
+    <div class="verse indent2">Conveniently on a hill;</div>
+    <div class="verse indent0">And daily, when it wasn't wet,</div>
+    <div class="verse indent2">He paced the battlements until</div>
+    <div class="verse indent0">Some smaller Knight who couldn't swim</div>
+    <div class="verse indent0">Should reach the moat and challenge him.</div>
+  </div>
+
+<div class="figcenter illowp67" id="illus37" style="max-width: 28.1875em;">
+  <img class="w100" src="images/illus37.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Or sometimes, feeling full of fight,</div>
+    <div class="verse indent2">He hurried out to scour the plain;</div>
+    <div class="verse indent0">And, seeing some approaching Knight,</div>
+    <div class="verse indent2">He either hurried home again,</div>
+    <div class="verse indent0">Or hid; and, when the foe was past,</div>
+    <div class="verse indent0">Blew a triumphant trumpet-blast.</div>
+  </div>
+
+<div class="figcenter illowp75" id="illus38" style="max-width: 31.25em;">
+  <img class="w100" src="images/illus38.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">One day when good Sir Thomas Tom</div>
+    <div class="verse indent2">Was resting in a handy ditch,</div>
+    <div class="verse indent0">The noises he was hiding from,</div>
+    <div class="verse indent2">Though very much the noises which</div>
+    <div class="verse indent0">He'd always hidden from before,</div>
+    <div class="verse indent0">Seemed somehow less.... Or was it more?</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus39" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus39.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">The trotting horse, the trumpet's blast,</div>
+    <div class="verse indent2">The whistling sword, the armour's squeak,</div>
+    <div class="verse indent0">These, and especially the last,</div>
+    <div class="verse indent2">Had clattered by him all the week.</div>
+    <div class="verse indent0">Was this the same, or was it not?</div>
+    <div class="verse indent0"><i>Something was different.</i> But what?</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Sir Thomas raised a cautious ear</div>
+    <div class="verse indent2">And listened as Sir Hugh went by,</div>
+    <div class="verse indent0">And suddenly he seemed to hear</div>
+    <div class="verse indent2">(Or not to hear) the reason why</div>
+    <div class="verse indent0">This stranger made a nicer sound</div>
+    <div class="verse indent0">Than other Knights who lived around.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Sir Thomas watched the way he went—</div>
+    <div class="verse indent2">His rage was such he couldn't speak,</div>
+    <div class="verse indent0">For years they'd called him down in Kent</div>
+    <div class="verse indent2">The Knight Whose Armour Didn't Squeak!</div>
+    <div class="verse indent0">Yet here and now he looked upon</div>
+    <div class="verse indent0"><i>Another</i> Knight whose squeak had gone.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">He rushed to where his horse was tied;</div>
+    <div class="verse indent2">He spurred it to a rapid trot.</div>
+    <div class="verse indent0">The only fear he felt inside</div>
+    <div class="verse indent2">About his enemy was not</div>
+    <div class="verse indent0">"How sharp his sword?" "How stout his heart?"</div>
+    <div class="verse indent0">But "Has he got too long a start?"</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus40" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus40.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Sir Hugh was singing, hand on hip,</div>
+    <div class="verse indent2">When something sudden came along,</div>
+    <div class="verse indent0">And caught him a terrific blip</div>
+    <div class="verse indent2">Right in the middle of his song.</div>
+    <div class="verse indent0">"A thunderstorm!" he thought. "Of course!"</div>
+    <div class="verse indent0">And toppled gently off his horse.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus41" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus41.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Then said the good Sir Thomas Tom,</div>
+    <div class="verse indent2">Dismounting with a friendly air,</div>
+    <div class="verse indent0">"Allow me to extract you from</div>
+    <div class="verse indent2">The heavy armour that you wear.</div>
+    <div class="verse indent0">At times like these the bravest Knight</div>
+    <div class="verse indent0">May find his armour much too tight."</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus42" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus42.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">A hundred yards or so beyond</div>
+    <div class="verse indent2">The scene of brave Sir Hugh's defeat</div>
+    <div class="verse indent0">Sir Thomas found a useful pond,</div>
+    <div class="verse indent2">And, careful not to wet his feet,</div>
+    <div class="verse indent0">He brought the armour to the brink,</div>
+    <div class="verse indent0">And flung it in ... and watched it sink.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">So ever after, more and more,</div>
+    <div class="verse indent2">The men of Kent would proudly speak</div>
+    <div class="verse indent0">Of Thomas Tom of Appledore,</div>
+    <div class="verse indent2">"The Knight Whose Armour Didn't Squeak"</div>
+    <div class="verse indent0">Whilst Hugh, the Knight who gave him best,</div>
+    <div class="verse indent0">Squeaks just as badly as the rest.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus43" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus43.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="BUTTERCUP_DAYS">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus44" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus44.jpg" alt="">
+</div>
+
+<h3>BUTTERCUP DAYS</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Where is Anne?</div>
+    <div class="verse indent2">Head above the buttercups,</div>
+    <div class="verse indent0">Walking by the stream,</div>
+    <div class="verse indent2">Down among the buttercups.</div>
+    <div class="verse indent0">Where is Anne?</div>
+    <div class="verse indent0">Walking with her man,</div>
+    <div class="verse indent0">Lost in a dream,</div>
+    <div class="verse indent2">Lost among the buttercups.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">What has she got in that little brown head?</div>
+    <div class="verse indent0">Wonderful thoughts which can never be said.</div>
+    <div class="verse indent0">What has she got in that firm little fist of hers?</div>
+    <div class="verse indent0">Somebody's thumb, and it feels like Christopher's.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Where is Anne?</div>
+    <div class="verse indent0">Close to her man.</div>
+    <div class="verse indent0">Brown head, gold head,</div>
+    <div class="verse indent2">In and out the buttercups.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp79" id="illus45" style="max-width: 33.25em;">
+  <img class="w100" src="images/illus45.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="THE_CHARCOAL-BURNER">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus46" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus46.jpg" alt="">
+</div>
+
+<h3>THE CHARCOAL-BURNER</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The charcoal-burner has tales to tell.</div>
+    <div class="verse indent0">He lives in the Forest,</div>
+    <div class="verse indent0">Alone in the Forest;</div>
+    <div class="verse indent0">He sits in the Forest,</div>
+    <div class="verse indent0">Alone in the Forest.</div>
+    <div class="verse indent0">And the sun comes slanting between the trees,</div>
+    <div class="verse indent0">And rabbits come up, and they give him good-morning,</div>
+    <div class="verse indent0">And rabbits come up and say, "Beautiful morning"....</div>
+    <div class="verse indent0">And the moon swings clear of the tall black trees,</div>
+    <div class="verse indent0">And owls fly over and wish him good-night,</div>
+    <div class="verse indent0">Quietly over to wish him good-night....</div>
+  </div>
+
+<div class="figcenter illowp53" id="illus47" style="max-width: 22.25em;">
+  <img class="w100" src="images/illus47.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">And he sits and thinks of the things they know,</div>
+    <div class="verse indent0">He and the Forest, alone together—</div>
+    <div class="verse indent0">The springs that come and the summers that go,</div>
+    <div class="verse indent0">Autumn dew on bracken and heather,</div>
+    <div class="verse indent0">The drip of the Forest beneath the snow....</div>
+    <div class="verse indent0">All the things they have seen,</div>
+    <div class="verse indent0">All the things they have heard:</div>
+    <div class="verse indent0">An April sky swept clean and the song of a bird....</div>
+    <div class="verse indent0">Oh, the charcoal-burner has tales to tell!</div>
+    <div class="verse indent0">And he lives in the Forest and knows us well.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus48" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus48.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="US_TWO">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus49" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus49.jpg" alt="">
+</div>
+
+<h3>US TWO</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Wherever I am, there's always Pooh,</div>
+    <div class="verse indent0">There's always Pooh and Me.</div>
+    <div class="verse indent0">Whatever I do, he wants to do,</div>
+    <div class="verse indent0">"Where are you going to-day?" says Pooh:</div>
+    <div class="verse indent0">"Well, that's very odd 'cos I was too.</div>
+    <div class="verse indent0">Let's go together," says Pooh, says he.</div>
+    <div class="verse indent0">"Let's go together," says Pooh.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus50" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus50.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">"What's twice eleven?" I said to Pooh.</div>
+    <div class="verse indent0">("Twice what?" said Pooh to Me.)</div>
+    <div class="verse indent0">"I <i>think</i> it ought to be twenty-two."</div>
+    <div class="verse indent0">"Just what I think myself," said Pooh.</div>
+    <div class="verse indent0">"It wasn't an easy sum to do,</div>
+    <div class="verse indent0">But that's what it is," said Pooh, said he.</div>
+    <div class="verse indent0">"That's what it is," said Pooh.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus51" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus51.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">"Let's look for dragons," I said to Pooh.</div>
+    <div class="verse indent0">"Yes, let's," said Pooh to Me.</div>
+    <div class="verse indent0">We crossed the river and found a few—</div>
+    <div class="verse indent0">"Yes, those are dragons all right," said Pooh.</div>
+    <div class="verse indent0">"As soon as I saw their beaks I knew.</div>
+    <div class="verse indent0">That's what they are," said Pooh, said he.</div>
+    <div class="verse indent0">"That's what they are," said Pooh.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus52" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus52.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">"Let's frighten the dragons," I said to Pooh.</div>
+    <div class="verse indent0">"That's right," said Pooh to Me.</div>
+    <div class="verse indent0">"<i>I'm</i> not afraid," I said to Pooh,</div>
+    <div class="verse indent0">And I held his paw and I shouted "Shoo!</div>
+    <div class="verse indent0">Silly old dragons!"—and off they flew.</div>
+    <div class="verse indent0">"I wasn't afraid," said Pooh, said he,</div>
+    <div class="verse indent0">"I'm <i>never</i> afraid with you."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">So wherever I am, there's always Pooh,</div>
+    <div class="verse indent0">There's always Pooh and Me.</div>
+    <div class="verse indent0">"What would I do?" I said to Pooh,</div>
+    <div class="verse indent0">"If it wasn't for you," and Pooh said: "True,</div>
+    <div class="verse indent0">It isn't much fun for One, but Two</div>
+    <div class="verse indent0">Can stick together," says Pooh, says he.</div>
+    <div class="verse indent0">"That's how it is," says Pooh.</div>
+
+<div class="figcenter illowp54" id="illus53" style="max-width: 22.8125em;">
+  <img class="w100" src="images/illus53.jpg" alt="">
+</div>
+
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="THE_OLD_SAILOR">&nbsp;</h3>
+
+<div class="figcenter illowp74" id="illus54" style="max-width: 31em;">
+  <img class="w100" src="images/illus54.jpg" alt="">
+</div>
+
+<h3>THE OLD SAILOR</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There was once an old sailor my grandfather knew</div>
+    <div class="verse indent0">Who had so many things which he wanted to do</div>
+    <div class="verse indent0">That, whenever he thought it was time to begin,</div>
+    <div class="verse indent0">He couldn't because of the state he was in.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus55" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus55.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">He was shipwrecked, and lived on an island for weeks,</div>
+    <div class="verse indent0">And he wanted a hat, and he wanted some breeks;</div>
+
+<div class="figcenter illowp100" id="illus56" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus56.jpg" alt="">
+</div>
+
+    <div class="verse indent0">And he wanted some nets, or a line and some hooks</div>
+    <div class="verse indent0">For the turtles and things which you read of in books.</div>
+  </div>
+
+<div class="figcenter illowp49" id="illus57" style="max-width: 20.6875em;">
+  <img class="w100" src="images/illus57.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">And, thinking of this, he remembered a thing</div>
+    <div class="verse indent0">Which he wanted (for water) and that was a spring;</div>
+    <div class="verse indent0">And he thought that to talk to he'd look for, and keep</div>
+    <div class="verse indent0">(If he found it) a goat, or some chickens and sheep.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus58" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus58.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Then, because of the weather, he wanted a hut</div>
+    <div class="verse indent0">With a door (to come in by) which opened and shut</div>
+    <div class="verse indent0">(With a jerk, which was useful if snakes were about),</div>
+    <div class="verse indent0">And a very strong lock to keep savages out.</div>
+  </div>
+
+<div class="figcenter illowp57" id="illus59" style="max-width: 24.125em;">
+  <img class="w100" src="images/illus59.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">He began on the fish-hooks, and when he'd begun</div>
+    <div class="verse indent0">He decided he couldn't because of the sun.</div>
+    <div class="verse indent0">So he knew what he ought to begin with, and that</div>
+    <div class="verse indent0">Was to find, or to make, a large sun-stopping hat.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">He was making the hat with some leaves from a tree,</div>
+    <div class="verse indent0">When he thought, "I'm as hot as a body can be,</div>
+    <div class="verse indent0">And I've nothing to take for my terrible thirst;</div>
+    <div class="verse indent0">So I'll look for a spring, and I'll look for it <i>first</i>."</div>
+  </div>
+
+<div class="figcenter illowp62" id="illus60" style="max-width: 25.875em;">
+  <img class="w100" src="images/illus60.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Then he thought as he started, "Oh, dear and oh, dear!</div>
+    <div class="verse indent0">I'll be lonely to-morrow with nobody here!"</div>
+    <div class="verse indent0">So he made in his note-book a couple of notes:</div>
+    <div class="verse indent0">"<i>I must first find some chickens</i>" and "<i>No, I mean goats.</i>"</div>
+  </div>
+
+<div class="figcenter illowp63" id="illus61" style="max-width: 26.375em;">
+  <img class="w100" src="images/illus61.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">He had just seen a goat (which he knew by the shape)</div>
+    <div class="verse indent0">When he thought, "But I must have a boat for escape.</div>
+    <div class="verse indent0">But a boat means a sail, which means needles and thread;</div>
+    <div class="verse indent0">So I'd better sit down and make needles instead."</div>
+  </div>
+
+<div class="figcenter illowp53" id="illus62" style="max-width: 22.25em;">
+  <img class="w100" src="images/illus62.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">He began on a needle, but thought as he worked,</div>
+    <div class="verse indent0">That, if this was an island where savages lurked,</div>
+    <div class="verse indent0">Sitting safe in his hut he'd have nothing to fear,</div>
+    <div class="verse indent0">Whereas now they might suddenly breathe in his ear!</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus63" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus63.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">So he thought of his hut ... and he thought of his boat,</div>
+    <div class="verse indent0">And his hat and his breeks, and his chickens and goat,</div>
+    <div class="verse indent0">And the hooks (for his food) and the spring (for his thirst)....</div>
+    <div class="verse indent0">But he <i>never</i> could think which he ought to do first.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus64" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus64.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">And so in the end he did nothing at all,</div>
+    <div class="verse indent0">But basked on the shingle wrapped up in a shawl.</div>
+    <div class="verse indent0">And I think it was dreadful the way he behaved—</div>
+    <div class="verse indent0">He did nothing but basking until he was saved!</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus65" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus65.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="THE_ENGINEER">&nbsp;</h3>
+
+
+<div class="figcenter illowp100" id="illus66" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus66.jpg" alt="">
+</div>
+
+
+<h3>THE ENGINEER</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Let it rain!</div>
+    <div class="verse indent0">Who cares?</div>
+    <div class="verse indent0">I've a train</div>
+    <div class="verse indent0">Upstairs,</div>
+
+<div class="figcenter illowp28" id="illus67" style="max-width: 12em;">
+  <img class="w100" src="images/illus67.jpg" alt="">
+</div>
+
+    <div class="verse indent0">With a brake</div>
+    <div class="verse indent0">Which I make</div>
+    <div class="verse indent0">From a string</div>
+    <div class="verse indent0">Sort of thing,</div>
+
+<div class="figcenter illowp100" id="illus68" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus68.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Which works</div>
+    <div class="verse indent0">In jerks,</div>
+    <div class="verse indent0">'Cos it drops</div>
+    <div class="verse indent0">In the spring,</div>
+    <div class="verse indent0">Which stops</div>
+    <div class="verse indent0">With the string,</div>
+
+<div class="figcenter illowp100" id="illus69" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus69.jpg" alt="">
+</div>
+
+    <div class="verse indent0">And the wheels</div>
+    <div class="verse indent0">All stick</div>
+    <div class="verse indent0">So quick</div>
+    <div class="verse indent0">That it feels</div>
+
+<div class="figcenter illowp100" id="illus70" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus70.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Like a thing</div>
+    <div class="verse indent0">That you make</div>
+    <div class="verse indent0">With a brake,</div>
+    <div class="verse indent0">Not string....</div>
+  </div>
+
+<div class="figcenter illowp51" id="illus71" style="max-width: 21.625em;">
+  <img class="w100" src="images/illus71.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">So that's what I make,</div>
+    <div class="verse indent0">When the day's all wet.</div>
+    <div class="verse indent0">It's a good sort of brake</div>
+    <div class="verse indent0">But it hasn't worked yet.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus72" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus72.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="JOURNEYS_END">&nbsp;</h3>
+
+<div class="figcenter illowp87" id="illus73" style="max-width: 36.5em;">
+  <img class="w100" src="images/illus73.jpg" alt="">
+</div>
+
+<h3>JOURNEY'S END</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0"><i>Christopher, Christopher, where are you going, Christopher Robin?</i></div>
+    <div class="verse indent6">"Just up to the top of the hill,</div>
+    <div class="verse indent6">Upping and upping until</div>
+    <div class="verse indent6">I am right on the top of the hill,"</div>
+    <div class="verse indent10">Said Christopher Robin.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><i>Christopher, Christopher, why are you going, Christopher Robin?</i></div>
+    <div class="verse indent6"><i>There's nothing to see, so when</i></div>
+    <div class="verse indent6"><i>You've got to the top, what then?</i></div>
+    <div class="verse indent6">"Just down to the bottom again,"</div>
+    <div class="verse indent10">Said Christopher Robin.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus74" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus74.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="FURRY_BEAR">&nbsp;</h3>
+
+<div class="figcenter illowp70" id="illus75" style="max-width: 29.4375em;">
+  <img class="w100" src="images/illus75.jpg" alt="">
+</div>
+
+<h3>FURRY BEAR</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">If I were a bear,</div>
+    <div class="verse indent2">And a big bear too,</div>
+    <div class="verse indent0">I shouldn't much care</div>
+    <div class="verse indent2">If it froze or snew;</div>
+    <div class="verse indent0">I shouldn't much mind</div>
+    <div class="verse indent2">If it snowed or friz—</div>
+    <div class="verse indent0">I'd be all fur-lined</div>
+    <div class="verse indent2">With a coat like his!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">For I'd have fur boots and a brown fur wrap,</div>
+    <div class="verse indent0">And brown fur knickers and a big fur cap.</div>
+    <div class="verse indent0">I'd have a fur muffle-ruff to cover my jaws,</div>
+    <div class="verse indent0">And brown fur mittens on my big brown paws.</div>
+    <div class="verse indent0">With a big brown furry-down up to my head,</div>
+    <div class="verse indent0">I'd sleep all the winter in a big fur bed.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp92" id="illus76" style="max-width: 38.375em;">
+  <img class="w100" src="images/illus76.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="FORGIVEN">&nbsp;</h3>
+
+<div class="figcenter illowp84" id="illus77" style="max-width: 35.25em;">
+  <img class="w100" src="images/illus77.jpg" alt="">
+</div>
+
+<h3>FORGIVEN</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I found a little beetle, so that Beetle was his name,</div>
+    <div class="verse indent0">And I called him Alexander and he answered just the same.</div>
+    <div class="verse indent0">I put him in a match-box, and I kept him all the day....</div>
+    <div class="verse indent0">And Nanny let my beetle out—</div>
+    <div class="verse indent2">Yes, Nanny let my beetle out—</div>
+    <div class="verse indent11">She went and let my beetle out—</div>
+    <div class="verse indent21">And Beetle ran away.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus78" style="max-width: 14.625em;">
+  <img class="w100" src="images/illus78.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">She said she didn't mean it, and I never said she did,</div>
+    <div class="verse indent0">She said she wanted matches and she just took off the lid,</div>
+    <div class="verse indent0">She said that she was sorry, but it's difficult to catch</div>
+    <div class="verse indent0">An excited sort of beetle you've mistaken for a match.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus79" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus79.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">She said that she was sorry, and I really mustn't mind,</div>
+    <div class="verse indent0">As there's lots and lots of beetles which she's certain we could find,</div>
+    <div class="verse indent0">If we looked about the garden for the holes where beetles hid—</div>
+    <div class="verse indent0">And we'd get another match-box and write BEETLE on the lid.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">We went to all the places which a beetle might be near,</div>
+    <div class="verse indent0">And we made the sort of noises which a beetle likes to hear,</div>
+    <div class="verse indent0">And I saw a kind of something, and I gave a sort of shout:</div>
+    <div class="verse indent0">"A beetle-house and Alexander Beetle coming out!"</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus80" style="max-width: 14.4375em;">
+  <img class="w100" src="images/illus80.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">It was Alexander Beetle I'm as certain as can be</div>
+    <div class="verse indent0">And he had a sort of look as if he thought it must be ME,</div>
+    <div class="verse indent0">And he had a sort of look as if he thought he ought to say:</div>
+    <div class="verse indent0">"I'm very very sorry that I tried to run away."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">And Nanny's very sorry too for you-know-what-she-did,</div>
+    <div class="verse indent0">And she's writing ALEXANDER very blackly on the lid.</div>
+    <div class="verse indent0">So Nan and Me are friends, because it's difficult to catch</div>
+    <div class="verse indent0">An excited Alexander you've mistaken for a match.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus81" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus81.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="THE_EMPERORS_RHYME">&nbsp;</h3>
+
+<div class="figcenter illowp37" id="illus82" style="max-width: 15.75em;">
+  <img class="w100" src="images/illus82.jpg" alt="">
+</div>
+
+<h3>THE EMPEROR'S RHYME</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">The King of Peru</div>
+    <div class="verse indent0">(Who was Emperor too)</div>
+    <div class="verse indent2">Had a sort of a rhyme</div>
+    <div class="verse indent4">Which was useful to know,</div>
+    <div class="verse indent0">If he felt very shy</div>
+    <div class="verse indent0">When a stranger came by,</div>
+    <div class="verse indent2">Or they asked him the time</div>
+    <div class="verse indent4">When his watch didn't go;</div>
+
+<div class="figcenter illowp60" id="illus83" style="max-width: 25.375em;">
+  <img class="w100" src="images/illus83.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Or supposing he fell</div>
+    <div class="verse indent0">(By mistake) down a well,</div>
+    <div class="verse indent2">Or he tumbled when skating</div>
+    <div class="verse indent4">And sat on his hat,</div>
+
+<div class="figcenter illowp54" id="illus84" style="max-width: 22.5625em;">
+  <img class="w100" src="images/illus84.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Or perhaps wasn't told,</div>
+    <div class="verse indent0">Till his porridge was cold,</div>
+    <div class="verse indent2">That his breakfast was waiting—</div>
+    <div class="verse indent4">Or something like that;</div>
+
+<div class="figcenter illowp100" id="illus85" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus85.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Oh, whenever the Emperor</div>
+    <div class="verse indent0">Got in to a temper, or</div>
+    <div class="verse indent2">Felt himself sulky or sad,</div>
+    <div class="verse indent0">He would murmur and murmur,</div>
+    <div class="verse indent0">Until he felt firmer,</div>
+    <div class="verse indent2">This curious rhyme which he had:</div>
+  </div>
+
+<div class="figcenter illowp63" id="illus86" style="max-width: 26.4375em;">
+  <img class="w100" src="images/illus86.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0"><i>Eight eights are sixty-four,</i></div>
+    <div class="verse indent2"><i>Multiply by seven.</i></div>
+    <div class="verse indent0"><i>When it's done,</i></div>
+    <div class="verse indent0"><i>Carry one</i></div>
+    <div class="verse indent2"><i>And take away eleven,</i></div>
+    <div class="verse indent0"><i>Nine nines are eighty-one</i></div>
+    <div class="verse indent2"><i>Multiply by three.</i></div>
+    <div class="verse indent0"><i>If it's more,</i></div>
+    <div class="verse indent0"><i>Carry four,</i></div>
+    <div class="verse indent2"><i>And then it's time for tea.</i></div>
+  </div>
+
+<div class="figcenter illowp39" id="illus87" style="max-width: 16.375em;">
+  <img class="w100" src="images/illus87.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">So whenever the Queen</div>
+    <div class="verse indent0">Took his armour to clean,</div>
+    <div class="verse indent2">And she didn't remember</div>
+    <div class="verse indent4">To use any starch;</div>
+
+<div class="figcenter illowp68" id="illus88" style="max-width: 28.5em;">
+  <img class="w100" src="images/illus88.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Or his birthday (in May)</div>
+    <div class="verse indent0">Was a horrible day,</div>
+    <div class="verse indent2">Being wet as November</div>
+    <div class="verse indent4">And windy as March;</div>
+    <div class="verse indent0">Or, if sitting in state</div>
+    <div class="verse indent0">With the Wise and the Great,</div>
+    <div class="verse indent2">He just happened to hiccup</div>
+    <div class="verse indent4">While signing his name,</div>
+    <div class="verse indent0">Or the Queen gave a cough,</div>
+    <div class="verse indent0">When his crown tumbled off</div>
+    <div class="verse indent2">As he bent down to pick up</div>
+    <div class="verse indent4">A pen for the same;</div>
+
+<div class="figcenter illowp62" id="illus89" style="max-width: 26.0625em;">
+  <img class="w100" src="images/illus89.jpg" alt="">
+</div>
+
+    <div class="verse indent0">Oh, whenever the Emperor</div>
+    <div class="verse indent0">Got into a temper, or</div>
+    <div class="verse indent2">Felt himself awkward and shy,</div>
+    <div class="verse indent0">He would whisper and whisper,</div>
+    <div class="verse indent0">Until he felt crisper,</div>
+    <div class="verse indent2">This odd little rhyme to the sky:</div>
+  </div>
+
+<div class="figcenter illowp58" id="illus90" style="max-width: 24.5em;">
+  <img class="w100" src="images/illus90.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0"><i>Eight eights are eighty-one;</i></div>
+    <div class="verse indent2"><i>Multiply by seven.</i></div>
+    <div class="verse indent0"><i>If it's more,</i></div>
+    <div class="verse indent0"><i>Carry four,</i></div>
+    <div class="verse indent2"><i>And take away eleven.</i></div>
+    <div class="verse indent0"><i>Nine nines are sixty-four;</i></div>
+    <div class="verse indent2"><i>Multiply by three.</i></div>
+    <div class="verse indent0"><i>When it's done,</i></div>
+    <div class="verse indent0"><i>Carry one,</i></div>
+    <div class="verse indent2"><i>And then it's time for tea.</i></div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp70" id="illus91" style="max-width: 29.4375em;">
+  <img class="w100" src="images/illus91.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="KNIGHT-IN-ARMOUR">&nbsp;</h3>
+
+<div class="figcenter illowp94" id="illus92" style="max-width: 39.375em;">
+  <img class="w100" src="images/illus92.jpg" alt="">
+</div>
+
+<h3>KNIGHT-IN-ARMOUR</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Whenever I'm a shining Knight,</div>
+    <div class="verse indent0">I buckle on my armour tight;</div>
+    <div class="verse indent0">And then I look about for things,</div>
+    <div class="verse indent0">Like Rushings-Out, and Rescuings,</div>
+    <div class="verse indent0">And Savings from the Dragon's Lair,</div>
+    <div class="verse indent0">And fighting all the Dragons there.</div>
+    <div class="verse indent0">And sometimes when our fights begin,</div>
+    <div class="verse indent0">I think I'll let the Dragons win....</div>
+    <div class="verse indent0">And then I think perhaps I won't,</div>
+    <div class="verse indent0">Because they're Dragons, and I don't.</div>
+  </div>
+</div>
+</div>
+
+<hr class="chap">
+
+
+<h3 id="COME_OUT_WITH_ME">&nbsp;</h3>
+
+<div class="figcenter illowp51" id="illus93" style="max-width: 21.375em;">
+  <img class="w100" src="images/illus93.jpg" alt="">
+</div>
+
+<h3>COME OUT WITH ME</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0"><i>There's sun on the river and sun on the hill</i>....</div>
+    <div class="verse indent0">You can hear the sea if you stand quite still!</div>
+    <div class="verse indent0">There's eight new puppies at Roundabout Farm—</div>
+    <div class="verse indent0">And I saw an old sailor with only one arm!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">But every one says, "Run along!"</div>
+    <div class="verse indent12">(Run along, run along!)</div>
+    <div class="verse indent2">All of them say "Run along! I'm busy as can be."</div>
+    <div class="verse indent12">Every one says, "Run along,</div>
+    <div class="verse indent12">There's a little darling!"</div>
+    <div class="verse indent2">If I'm a little darling, why don't they run with me?</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><i>There's wind on the river and wind on the hill</i>....</div>
+    <div class="verse indent0">There's a dark dead water-wheel under the mill!</div>
+    <div class="verse indent0">I saw a fly which had just been drowned—</div>
+    <div class="verse indent0">And I know where a rabbit goes into the ground!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">But every one says, "Run along!"</div>
+    <div class="verse indent12">(Run along, run along!)</div>
+    <div class="verse indent2">All of them say "Yes, dear," and never notice me.</div>
+    <div class="verse indent12">Every one says, "Run along,</div>
+    <div class="verse indent12">There's a little darling!"</div>
+    <div class="verse indent2">If I'm a little darling, why won't they come and see?</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus94" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus94.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="DOWN_BY_THE_POND">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus95" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus95.jpg" alt="">
+</div>
+
+<h3>DOWN BY THE POND</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent6"><i>I'm fishing.</i></div>
+    <div class="verse indent0">Don't talk, anybody, don't come near!</div>
+    <div class="verse indent0">Can't you see that the fish might hear?</div>
+    <div class="verse indent0">He thinks I'm playing with a piece of string;</div>
+    <div class="verse indent0">He thinks I'm another sort of funny sort of thing,</div>
+    <div class="verse indent6"><i>But he doesn't know I'm fishing—</i></div>
+    <div class="verse indent6"><i>He doesn't know I'm fishing.</i></div>
+    <div class="verse indent8">That's what I'm doing—</div>
+    <div class="verse indent12">Fishing.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus96" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus96.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent6"><i>No, I'm not, I'm newting.</i></div>
+    <div class="verse indent0">Don't cough, anybody, don't come by!</div>
+    <div class="verse indent0">Any small noise makes a newt feel shy.</div>
+
+<div class="figcenter illowp100" id="illus97" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus97.jpg" alt="">
+</div>
+
+    <div class="verse indent0">He thinks I'm a bush, or a new sort of tree;</div>
+    <div class="verse indent0">He thinks it's somebody, but doesn't think it's Me,</div>
+    <div class="verse indent6"><i>And he doesn't know I'm newting—</i></div>
+    <div class="verse indent6"><i>No, he doesn't know I'm newting.</i></div>
+    <div class="verse indent8">That's what I'm doing—</div>
+    <div class="verse indent12">Newting.</div>
+  </div>
+</div>
+</div>
+
+
+<div class="figcenter illowp100" id="illus98" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus98.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="THE_LITTLE_BLACK_HEN">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus99" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus99.jpg" alt="">
+</div>
+
+
+<h3>THE LITTLE BLACK HEN</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent6">Berryman and Baxter,</div>
+    <div class="verse indent8">Prettiboy and Penn</div>
+    <div class="verse indent6">And old Farmer Middleton</div>
+    <div class="verse indent8">Are five big men....</div>
+    <div class="verse indent6">And all of them were after</div>
+    <div class="verse indent8">The Little Black Hen.</div>
+  </div>
+
+<div class="figcenter illowp67" id="illus100" style="max-width: 27.9375em;">
+  <img class="w100" src="images/illus100.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent6">She ran quickly,</div>
+    <div class="verse indent8">They ran fast;</div>
+    <div class="verse indent6">Baxter was first, and</div>
+    <div class="verse indent8">Berryman was last.</div>
+    <div class="verse indent6">I sat and watched</div>
+    <div class="verse indent8">By the old plum-tree....</div>
+    <div class="verse indent6">She squawked through the hedge</div>
+    <div class="verse indent8">And she came to me.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">The Little Black Hen</div>
+    <div class="verse indent8">Said "Oh, it's you!"</div>
+    <div class="verse indent6">I said "Thank you,</div>
+    <div class="verse indent8">How do you do?</div>
+    <div class="verse indent6">And please will you tell me,</div>
+    <div class="verse indent8">Little Black Hen,</div>
+    <div class="verse indent6">What did they want,</div>
+    <div class="verse indent8">Those five big men?"</div>
+  </div>
+
+<div class="figcenter illowp91" id="illus101" style="max-width: 38em;">
+  <img class="w100" src="images/illus101.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent6">The Little Black Hen</div>
+    <div class="verse indent8">She said to me:</div>
+    <div class="verse indent6">"They want me to lay them</div>
+    <div class="verse indent8">An egg for tea.</div>
+    <div class="verse indent6">If they were Emperors,</div>
+    <div class="verse indent8">If they were Kings,</div>
+    <div class="verse indent6">I'm much too busy</div>
+    <div class="verse indent8">To lay them things."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">"I'm not a King</div>
+    <div class="verse indent8">And I haven't a crown;</div>
+    <div class="verse indent6">I climb up trees,</div>
+    <div class="verse indent8">And I tumble down.</div>
+    <div class="verse indent6">I can shut one eye,</div>
+    <div class="verse indent8">I can count to ten,</div>
+    <div class="verse indent6">So lay me an egg, please,</div>
+    <div class="verse indent8">Little Black Hen."</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus102" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus102.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent6">The Little Black Hen said,</div>
+    <div class="verse indent8">"What will you pay,</div>
+    <div class="verse indent6">If I lay you an egg</div>
+    <div class="verse indent8">For Easter Day?"</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">"I'll give you a Please</div>
+    <div class="verse indent8">And a How-do-you-do,</div>
+    <div class="verse indent6">I'll show you the Bear</div>
+    <div class="verse indent8">Who lives in the Zoo,</div>
+    <div class="verse indent6">I'll show you the nettle-place</div>
+    <div class="verse indent8">On my leg,</div>
+    <div class="verse indent6">If you'll lay me a great big</div>
+    <div class="verse indent8">Eastery egg."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">The Little Black Hen</div>
+    <div class="verse indent8">Said "I don't care</div>
+    <div class="verse indent6">For a How-do-you-do</div>
+    <div class="verse indent8">Or a Big-brown-bear,</div>
+    <div class="verse indent6">But I'll lay you a beautiful</div>
+    <div class="verse indent8">Eastery egg,</div>
+    <div class="verse indent6">If you'll show me the nettle-place</div>
+    <div class="verse indent8">On your leg."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">I showed her the place</div>
+    <div class="verse indent8">Where I had my sting.</div>
+    <div class="verse indent6">She touched it gently</div>
+    <div class="verse indent8">With one black wing.</div>
+    <div class="verse indent6">"Nettles don't hurt</div>
+    <div class="verse indent8">If you count to ten.</div>
+    <div class="verse indent6">And now for the egg,"</div>
+    <div class="verse indent8">Said the Little Black Hen.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus103" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus103.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent6">When I wake up</div>
+    <div class="verse indent8">On Easter Day,</div>
+    <div class="verse indent6">I shall see my egg</div>
+    <div class="verse indent8">She's promised to lay.</div>
+    <div class="verse indent6">If I were Emperors,</div>
+    <div class="verse indent8">If I were Kings,</div>
+    <div class="verse indent6">It couldn't be fuller</div>
+    <div class="verse indent8">Of wonderful things.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent6">Berryman and Baxter,</div>
+    <div class="verse indent8">Prettiboy and Penn,</div>
+    <div class="verse indent6">And old Farmer Middleton</div>
+    <div class="verse indent8">Are five big men.</div>
+    <div class="verse indent6">All of them are wanting</div>
+    <div class="verse indent8">An egg for their tea,</div>
+    <div class="verse indent0">But the Little Black Hen is much too busy,</div>
+    <div class="verse indent0">The Little Black Hen is <i>much</i> too busy,</div>
+    <div class="verse indent0">The Little Black Hen is MUCH too busy....</div>
+    <div class="verse indent8"><i>She's laying my egg for me!</i></div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus104" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus104.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="THE_FRIEND">&nbsp;</h3>
+
+<div class="figcenter illowp75" id="illus105" style="max-width: 31.625em;">
+  <img class="w100" src="images/illus105.jpg" alt="">
+</div>
+
+<h3>THE FRIEND</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">There are lots and lots of people who are always asking things,</div>
+    <div class="verse indent0">Like Dates and Pounds-and-ounces and the names of funny Kings,</div>
+    <div class="verse indent0">And the answer's either Sixpence or A Hundred Inches Long,</div>
+    <div class="verse indent0">And I know they'll think me silly if I get the answer wrong.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">So Pooh and I go whispering, and Pooh looks very bright,</div>
+    <div class="verse indent0">And says, "Well, <i>I</i> say sixpence, but I don't suppose I'm right,"</div>
+    <div class="verse indent0">And then it doesn't matter what the answer ought to be,</div>
+    <div class="verse indent0">'Cos if he's right, I'm Right, and if he's wrong, it isn't Me.</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="THE_GOOD_LITTLE_GIRL">&nbsp;</h3>
+
+<div class="figcenter illowp33" id="illus106" style="max-width: 13.8125em;">
+  <img class="w100" src="images/illus106.jpg" alt="">
+</div>
+
+<h3>THE GOOD LITTLE GIRL</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">It's funny how often they say to me, "Jane?</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent0">And when they have said it, they say it again,</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">I go to a party, I go out to tea,</div>
+    <div class="verse indent0">I go to an aunt for a week at the sea,</div>
+    <div class="verse indent0">I come back from school or from playing a game;</div>
+    <div class="verse indent0">Wherever I come from, it's always the same:</div>
+    <div class="verse indent2">"Well?</div>
+    <div class="verse indent2">Have you been a <i>good</i> girl, Jane?"</div>
+  </div>
+
+<div class="figcenter illowp46" id="illus107" style="max-width: 19.5625em;">
+  <img class="w100" src="images/illus107.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">It's always the end of the loveliest day:</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent0">I went to the Zoo, and they waited to say:</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+    <div class="verse indent2">"Have you been a <i>good</i> girl?"</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Well, what did they think that I went there to do?</div>
+    <div class="verse indent0">And why should I want to be bad at the Zoo?</div>
+    <div class="verse indent0"><i>And should I be likely to say if I had?</i></div>
+    <div class="verse indent0">So that's why it's funny of Mummy and Dad,</div>
+    <div class="verse indent0">This asking and asking, in case I was bad,</div>
+    <div class="verse indent2">"Well?</div>
+    <div class="verse indent2">Have you been a <i>good</i> girl, Jane?"</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp57" id="illus108" style="max-width: 23.875em;">
+  <img class="w100" src="images/illus108.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="A_THOUGHT">&nbsp;</h3>
+
+<div class="figcenter illowp71" id="illus109" style="max-width: 29.875em;">
+  <img class="w100" src="images/illus109.jpg" alt="">
+</div>
+
+<h3>A THOUGHT</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">If I were John and John were Me,</div>
+    <div class="verse indent0">Then he'd be six and I'd be three.</div>
+    <div class="verse indent0">If John were Me and I were John,</div>
+    <div class="verse indent0">I shouldn't have these trousers on.</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="KING_HILARY_AND_THE_BEGGERMAN">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus110" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus110.jpg" alt="">
+</div>
+
+<h3>KING HILARY AND THE BEGGERMAN</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent4"><i>Of Hilary the Great and Good</i></div>
+    <div class="verse indent8"><i>They tell a tale at Christmas time</i></div>
+    <div class="verse indent4"><i>I've often thought the story would</i></div>
+    <div class="verse indent4"><i>Be prettier but just as good</i></div>
+    <div class="verse indent4"><i>If almost anybody should</i></div>
+    <div class="verse indent8"><i>Translate it into rime.</i></div>
+    <div class="verse indent4"><i>So I have done the best I can</i></div>
+    <div class="verse indent4"><i>For lack of some more learned man.</i></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8">Good King Hilary</div>
+    <div class="verse indent8">Said to his Chancellor</div>
+    <div class="verse indent8">(Proud Lord Willoughby,</div>
+    <div class="verse indent8">Lord High Chancellor):</div>
+    <div class="verse indent8">"Run to the wicket-gate</div>
+    <div class="verse indent8">Quickly, quickly,</div>
+    <div class="verse indent8">Run to the wicket gate</div>
+    <div class="verse indent12">And see who is knocking.</div>
+    <div class="verse indent8">It may be a rich man,</div>
+    <div class="verse indent8">Sea-borne from Araby,</div>
+    <div class="verse indent8">Bringing me peacocks,</div>
+    <div class="verse indent8">Emeralds and ivory;</div>
+    <div class="verse indent8">It may be a poor man,</div>
+    <div class="verse indent4">Travel-worn and weary,</div>
+    <div class="verse indent4">Bringing me oranges</div>
+    <div class="verse indent8">To put in my stocking."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Proud Lord Willoughby,</div>
+    <div class="verse indent4">Lord High Chancellor,</div>
+    <div class="verse indent8">Laughed both loud and free:<a id="FNanchor_1" href="#Footnote_1" class="fnanchor">[1]</a></div>
+    <div class="verse indent4">"I've served Your Majesty, man to man,</div>
+    <div class="verse indent4">Since first Your Majesty's reign began,</div>
+    <div class="verse indent4">And I've often walked, but I never, never ran,</div>
+    <div class="verse indent8">Never, never, never," quoth he.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><div class="footnote"></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><a id="Footnote_1" href="#FNanchor_1" class="label">[1]</a> Haw! Haw! Haw!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"></div></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8">Good King Hilary</div>
+    <div class="verse indent8">Said to his Chancellor</div>
+    <div class="verse indent8">(Proud Lord Willoughby,</div>
+    <div class="verse indent8">Lord High Chancellor):</div>
+    <div class="verse indent8">"Walk to the wicket-gate</div>
+    <div class="verse indent4">Quickly, quickly,</div>
+    <div class="verse indent4">Walk to the wicket-gate</div>
+    <div class="verse indent8">And see who is knocking.</div>
+  </div>
+
+<div class="figcenter illowp64" id="illus111" style="max-width: 27em;">
+  <img class="w100" src="images/illus111.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">It may be a captain,</div>
+    <div class="verse indent4">Hawk-nosed, bearded,</div>
+    <div class="verse indent4">Bringing me gold-dust,</div>
+    <div class="verse indent4">Spices, and sandalwood:</div>
+    <div class="verse indent4">It may be a scullion,</div>
+    <div class="verse indent4">Care-free, whistling,</div>
+    <div class="verse indent4">Bringing me sugar-plums</div>
+    <div class="verse indent8">To put in my stocking."</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Proud Lord Willoughby,</div>
+    <div class="verse indent4">Lord High Chancellor,</div>
+    <div class="verse indent8">Laughed both loud and free:</div>
+    <div class="verse indent4">"I've served in the Palace since I was four,</div>
+    <div class="verse indent4">And I'll serve in the Palace a-many years more,</div>
+    <div class="verse indent4">And I've opened a window, but never a door,</div>
+    <div class="verse indent8">Never, never, never," quoth he.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent8">Good King Hilary</div>
+    <div class="verse indent8">Said to his Chancellor</div>
+    <div class="verse indent8">(Proud Lord Willoughby,</div>
+    <div class="verse indent8">Lord High Chancellor):</div>
+    <div class="verse indent8">"Open the window</div>
+    <div class="verse indent4">Quickly, quickly,</div>
+    <div class="verse indent4">Open the window</div>
+    <div class="verse indent8">And see who is knocking.</div>
+  </div>
+
+<div class="figcenter illowp74" id="illus112" style="max-width: 30.9375em;">
+  <img class="w100" src="images/illus112.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">It may be a waiting-maid,</div>
+    <div class="verse indent4">Apple-cheeked, dimpled,</div>
+    <div class="verse indent4">Sent by her mistress</div>
+    <div class="verse indent4">To bring me greeting;</div>
+    <div class="verse indent4">It may be children,</div>
+    <div class="verse indent4">Anxious, whispering,</div>
+    <div class="verse indent4">Bringing me cobnuts,</div>
+    <div class="verse indent8">To put in my stocking."</div>
+  </div>
+
+<div class="figcenter illowp79" id="illus113" style="max-width: 33.0625em;">
+  <img class="w100" src="images/illus113.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">Proud Lord Willoughby,</div>
+    <div class="verse indent4">Lord High Chancellor,</div>
+    <div class="verse indent8">Laughed both loud and free:</div>
+    <div class="verse indent4">"I'll serve Your Majesty till I die—</div>
+    <div class="verse indent4">As Lord Chancellor, not as spy</div>
+    <div class="verse indent4">To peep from lattices; no, not I,</div>
+    <div class="verse indent8">Never, never, never," quoth he.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Good King Hilary</div>
+    <div class="verse indent4">Looked at his Chancellor</div>
+    <div class="verse indent4">(Proud Lord Willoughby,</div>
+    <div class="verse indent4">Lord High Chancellor):</div>
+    <div class="verse indent4">He said no word</div>
+    <div class="verse indent4">To his stiff-set Chancellor,</div>
+    <div class="verse indent4">But ran to the wicket-gate</div>
+    <div class="verse indent8">To see who was knocking.</div>
+    <div class="verse indent4">He found no rich man</div>
+    <div class="verse indent4">Trading from Araby;</div>
+    <div class="verse indent4">He found no captain,</div>
+    <div class="verse indent4">Blue-eyed, weather-tanned;</div>
+    <div class="verse indent4">He found no waiting-maid</div>
+    <div class="verse indent4">Sent by her mistress;</div>
+    <div class="verse indent4">But only a beggarman</div>
+    <div class="verse indent8">With one red stocking.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Good King Hilary</div>
+    <div class="verse indent4">Looked at the beggarman,</div>
+    <div class="verse indent8">And laughed him three times three;</div>
+    <div class="verse indent4">And he turned that beggarman round about:</div>
+    <div class="verse indent4">"Your thews are strong, and your arm is stout;</div>
+    <div class="verse indent4">Come, throw me a Lord High Chancellor out,</div>
+    <div class="verse indent8">And take his place," quoth he.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Of Hilary the Good and Great</div>
+    <div class="verse indent4">Old wives at Christmas time relate</div>
+    <div class="verse indent4">This tale, which points, at any rate,</div>
+    <div class="verse indent8">Two morals on the way.</div>
+    <div class="verse indent4">The first: "<i>Whatever Fortune brings,</i></div>
+    <div class="verse indent4"><i>Don't be afraid of doing things.</i>"</div>
+    <div class="verse indent4">(Especially, of course, for Kings.)</div>
+    <div class="verse indent8">It also seems to say</div>
+    <div class="verse indent4">(But not so wisely): "<i>He who begs</i></div>
+    <div class="verse indent4"><i>With one red stocking on his legs</i></div>
+    <div class="verse indent4"><i>Will be, as sure as eggs are eggs,</i></div>
+    <div class="verse indent8"><i>A Chancellor some day.</i>"</div>
+  </div>
+</div>
+</div>
+
+
+<div class="figcenter illowp100" id="illus114" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus114.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="SWING_SONG">&nbsp;</h3>
+
+<div class="figcenter illowp50" id="illus115" style="max-width: 21.1875em;">
+  <img class="w100" src="images/illus115.jpg" alt="">
+</div>
+
+<h3>SWING SONG</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Here I go up in my swing</div>
+    <div class="verse indent2">Ever so high.</div>
+    <div class="verse indent0">I am the King of the fields, and the King</div>
+    <div class="verse indent2">Of the town.</div>
+    <div class="verse indent0">I am the King of the earth, and the King</div>
+    <div class="verse indent2">Of the sky.</div>
+    <div class="verse indent0">Here I go up in my swing....</div>
+    <div class="verse indent2">Now I go down.</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="EXPLAINED">&nbsp;</h3>
+
+<div class="figcenter illowp64" id="illus116" style="max-width: 26.8125em;">
+  <img class="w100" src="images/illus116.jpg" alt="">
+</div>
+
+<h3>EXPLAINED</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Elizabeth Ann</div>
+    <div class="verse indent0">Said to her Nan:</div>
+    <div class="verse indent0">"Please will you tell me how God began?</div>
+    <div class="verse indent0"><i>Somebody</i> must have made Him. So</div>
+    <div class="verse indent0">Who could it be, 'cos I want to know?"</div>
+    <div class="verse indent0">And Nurse said, "<i>Well!</i>"</div>
+    <div class="verse indent0">And Ann said, "Well?</div>
+    <div class="verse indent0">I know you know, and I wish you'd tell."</div>
+    <div class="verse indent0">And Nurse took pins from her mouth, and said,</div>
+    <div class="verse indent0">"Now then, darling, it's time for bed."</div>
+  </div>
+
+<div class="figcenter illowp74" id="illus117" style="max-width: 31.125em;">
+  <img class="w100" src="images/illus117.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Elizabeth Ann</div>
+    <div class="verse indent0">Had a wonderful plan:</div>
+    <div class="verse indent0">She would run round the world till she found a man</div>
+    <div class="verse indent0">Who knew <i>exactly</i> how God began.</div>
+    <div class="verse indent0">She got up early, she dressed, and ran</div>
+    <div class="verse indent0">Trying to find an Important Man.</div>
+    <div class="verse indent0">She ran to London and knocked at the door</div>
+    <div class="verse indent0">Of the Lord High Doodelum's coach-and-four.</div>
+    <div class="verse indent0">"Please, sir (if there's anyone in),</div>
+    <div class="verse indent0">However-and-ever did God begin?"</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus118" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus118.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">The Lord High Doodelum lay in bed,</div>
+    <div class="verse indent0">But out of the window, large and red,</div>
+    <div class="verse indent0">Came the Lord High Coachman's face instead.</div>
+    <div class="verse indent0">And the Lord High Coachman laughed and said:</div>
+    <div class="verse indent0">"Well, what put <i>that</i> in your quaint little head?"</div>
+  </div>
+
+<div class="figcenter illowp78" id="illus119" style="max-width: 32.5em;">
+  <img class="w100" src="images/illus119.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Elizabeth Ann went home again</div>
+    <div class="verse indent0">And took from the ottoman Jennifer Jane.</div>
+    <div class="verse indent0">"Jenniferjane," said Elizabeth Ann,</div>
+    <div class="verse indent0">"Tell me <i>at once</i> how God began."</div>
+    <div class="verse indent0">And Jane, who didn't much care for speaking,</div>
+    <div class="verse indent0">Replied in her usual way by squeaking.</div>
+  </div>
+
+<div class="figcenter illowp59" id="illus120" style="max-width: 24.875em;">
+  <img class="w100" src="images/illus120.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">What did it mean? Well, to be quite candid,</div>
+    <div class="verse indent0"><i>I</i> don't know, but Elizabeth Ann did.</div>
+    <div class="verse indent0">Elizabeth Ann said softly, "Oh!</div>
+    <div class="verse indent0">Thank you, Jennifer. Now I know."</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="TWICE_TIMES">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus121" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus121.jpg" alt="">
+</div>
+
+<h3>TWICE TIMES</h3>
+
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent4">There were Two little Bears who lived in a Wood,</div>
+    <div class="verse indent4">And one of them was Bad and the other was Good.</div>
+    <div class="verse indent4">Good Bear learnt his Twice Times One—</div>
+    <div class="verse indent4">But Bad Bear left all his buttons undone.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">They lived in a Tree when the weather was hot,</div>
+    <div class="verse indent4">And one of them was Good, and the other was Not.</div>
+    <div class="verse indent4">Good Bear learnt his Twice Times Two—</div>
+    <div class="verse indent4">But Bad Bear's thingummies were worn right through.</div>
+  </div>
+
+<div class="figcenter illowp56" id="illus122" style="max-width: 23.5em;">
+  <img class="w100" src="images/illus122.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">They lived in a Cave when the weather was cold,</div>
+    <div class="verse indent4">And they Did, and they Didn't Do, what they were told.</div>
+    <div class="verse indent4">Good Bear learnt his Twice Times Three—</div>
+    <div class="verse indent4">But Bad Bear <i>never</i> had his hand-ker-chee.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus123" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus123.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">They lived in the Wood with a Kind Old Aunt,</div>
+    <div class="verse indent4">And one said "<i>Yes'm</i>," and the other said "<i>Shan't!</i>"</div>
+    <div class="verse indent4">Good Bear learnt his Twice Times Four—</div>
+    <div class="verse indent4">But Bad Bear's knicketies were terrible tore.</div>
+  </div>
+
+<div class="figcenter illowp50" id="illus124" style="max-width: 21.1875em;">
+  <img class="w100" src="images/illus124.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">And then quite suddenly (just like Us)</div>
+    <div class="verse indent4">One got Better and the other got Wuss.</div>
+    <div class="verse indent4">Good Bear muddled his Twice Times Three—</div>
+    <div class="verse indent4">But Bad Bear coughed <i>in his hand-ker-chee</i>!</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent4">Good Bear muddled his Twice Times Two—</div>
+    <div class="verse indent4">But Bad Bear's thingummies looked like new.</div>
+    <div class="verse indent4">Good Bear muddled his Twice Times One—</div>
+    <div class="verse indent4">But Bad Bear <i>never</i> left his buttons undone.</div>
+  </div>
+
+<div class="figcenter illowp57" id="illus125" style="max-width: 23.9375em;">
+  <img class="w100" src="images/illus125.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent4">There may be a Moral, though some say not;</div>
+    <div class="verse indent4">I think there's a moral, though I don't know what.</div>
+    <div class="verse indent4">But if one gets better, as the other gets wuss,</div>
+    <div class="verse indent4">These Two Little Bears are just like Us.</div>
+    <div class="verse indent4">For Christopher remembers up to Twice Times Ten....</div>
+    <div class="verse indent4">But <i>I</i> keep forgetting where I've put my pen.<a id="FNanchor_2" href="#Footnote_2" class="fnanchor">[2]</a></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><div class="footnote"></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"><a id="Footnote_2" href="#FNanchor_2" class="label">[2]</a> <i>So I have had to write this one in pencil.</i></div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0"></div></div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="THE_MORNING_WALK">&nbsp;</h3>
+
+<div class="figcenter illowp46" id="illus126" style="max-width: 19.25em;">
+  <img class="w100" src="images/illus126.jpg" alt="">
+</div>
+
+<h3>THE MORNING WALK</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">When Anne and I go out a walk,</div>
+    <div class="verse indent0">We hold each other's hand and talk</div>
+    <div class="verse indent0">Of all the things we mean to do</div>
+    <div class="verse indent0">When Anne and I are forty-two.</div>
+  </div>
+
+<div class="figcenter illowp88" id="illus127" style="max-width: 37em;">
+  <img class="w100" src="images/illus127.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">And when we've thought about a thing,</div>
+    <div class="verse indent0">Like bowling hoops or bicycling,</div>
+    <div class="verse indent0">Or falling down on Anne's balloon,</div>
+    <div class="verse indent0">We do it in the afternoon.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp77" id="illus128" style="max-width: 32.25em;">
+  <img class="w100" src="images/illus128.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="CRADLE_SONG">&nbsp;</h3>
+
+<div class="figcenter illowp73" id="illus129" style="max-width: 30.8125em;">
+  <img class="w100" src="images/illus129.jpg" alt="">
+</div>
+
+<h3>CRADLE SONG</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">O Timothy Tim</div>
+    <div class="verse indent2">Has ten pink toes,</div>
+    <div class="verse indent2">And ten pink toes</div>
+    <div class="verse indent0">Has Timothy Tim.</div>
+    <div class="verse indent0">They go with him</div>
+    <div class="verse indent2">Wherever he goes,</div>
+    <div class="verse indent2">And wherever he goes</div>
+    <div class="verse indent0">They go with him.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">O Timothy Tim</div>
+    <div class="verse indent2">Has two blue eyes,</div>
+    <div class="verse indent2">And two blue eyes</div>
+    <div class="verse indent0">Has Timothy Tim.</div>
+    <div class="verse indent0">They cry with him</div>
+    <div class="verse indent2">Whenever he cries,</div>
+    <div class="verse indent2">And whenever he cries,</div>
+    <div class="verse indent0">They cry with him.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">O Timothy Tim</div>
+    <div class="verse indent2">Has one red head,</div>
+    <div class="verse indent2">And one red head</div>
+    <div class="verse indent0">Has Timothy Tim.</div>
+    <div class="verse indent0">It sleeps with him</div>
+    <div class="verse indent2">In Timothy's bed.</div>
+    <div class="verse indent2">Sleep well, red head</div>
+    <div class="verse indent0">Of Timothy Tim.</div>
+  </div>
+</div>
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="WAITING_AT_THE_WINDOW">&nbsp;</h3>
+
+<div class="figcenter illowp62" id="illus130" style="max-width: 26.0625em;">
+  <img class="w100" src="images/illus130.jpg" alt="">
+</div>
+
+<h3>WAITING AT THE WINDOW</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">These are my two drops of rain</div>
+    <div class="verse indent0">Waiting on the window-pane.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">I am waiting here to see</div>
+    <div class="verse indent0">Which the winning one will be.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Both of them have different names.</div>
+    <div class="verse indent0">One is John and one is James.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">All the best and all the worst</div>
+    <div class="verse indent0">Comes from which of them is first.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">James has just begun to ooze.</div>
+    <div class="verse indent0">He's the one I want to lose.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">John is waiting to begin.</div>
+    <div class="verse indent0">He's the one I want to win.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">James is going slowly on.</div>
+    <div class="verse indent0">Something sort of sticks to John.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">John is moving off at last.</div>
+    <div class="verse indent0">James is going pretty fast.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">John is rushing down the pane.</div>
+    <div class="verse indent0">James is going slow again.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">James has met a sort of smear.</div>
+    <div class="verse indent0">John is getting very near.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Is he going fast enough?</div>
+    <div class="verse indent0">(James has found a piece of fluff.)</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">John has hurried quickly by.</div>
+    <div class="verse indent0">(James was talking to a fly.)</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">John is there, and John has won!</div>
+    <div class="verse indent0"><i>Look! I told you! Here's the sun!</i></div>
+  </div>
+</div>
+</div>
+
+
+<div class="figcenter illowp40" id="illus131" style="max-width: 16.75em;">
+  <img class="w100" src="images/illus131.jpg" alt="">
+</div>
+
+
+<hr class="chap">
+
+
+<h3 id="PINKLE_PURR">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus132" style="max-width: 42em;">
+  <img class="w100" src="images/illus132.jpg" alt="">
+</div>
+
+<h3>PINKLE PURR</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Tattoo was the mother of Pinkle Purr,</div>
+    <div class="verse indent0">A little black nothing of feet and fur;</div>
+    <div class="verse indent0">And by-and-by, when his eyes came through,</div>
+    <div class="verse indent0">He saw his mother, the big Tattoo.</div>
+    <div class="verse indent0">And all that he learned he learned from her.</div>
+    <div class="verse indent0">"I'll ask my mother," says Pinkle Purr.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Tattoo was the mother of Pinkle Purr,</div>
+    <div class="verse indent0">A ridiculous kitten with silky fur.</div>
+    <div class="verse indent0">And little black Pinkle grew and grew</div>
+    <div class="verse indent0">Till he got as big as the big Tattoo.</div>
+    <div class="verse indent0">And all that he did he did with her.</div>
+    <div class="verse indent0">"Two friends together," says Pinkle Purr.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Tattoo was the mother of Pinkle Purr,</div>
+    <div class="verse indent0">An adventurous cat in a coat of fur.</div>
+    <div class="verse indent0">And whenever he thought of a thing to do,</div>
+    <div class="verse indent0">He didn't much bother about Tattoo,</div>
+    <div class="verse indent0">For he knows its nothing to do with her,</div>
+    <div class="verse indent0">So "See you later," says Pinkle Purr.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Tattoo is the mother of Pinkle Purr,</div>
+    <div class="verse indent0">An enormous leopard with coal-black fur.</div>
+    <div class="verse indent0">A little brown kitten that's nearly new</div>
+    <div class="verse indent0">Is now playing games with its big Tattoo....</div>
+    <div class="verse indent0">And Pink looks lazily down at her:</div>
+    <div class="verse indent0">"Dear little Tat," says Pinkle Purr.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus133" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus133.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="WIND_ON_THE_HILL">&nbsp;</h3>
+
+<div class="figcenter illowp59" id="illus134" style="max-width: 24.6875em;">
+  <img class="w100" src="images/illus134.jpg" alt="">
+</div>
+
+<h3>WIND ON THE HILL</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">No one can tell me,</div>
+    <div class="verse indent2">Nobody knows,</div>
+    <div class="verse indent0">Where the wind comes from,</div>
+    <div class="verse indent2">Where the wind goes.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">It's flying from somewhere</div>
+    <div class="verse indent2">As fast as it can,</div>
+    <div class="verse indent0">I couldn't keep up with it,</div>
+    <div class="verse indent2">Not if I ran.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">But if I stopped holding</div>
+    <div class="verse indent2">The string of my kite,</div>
+    <div class="verse indent0">It would blow with the wind</div>
+    <div class="verse indent2">For a day and a night.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">And then when I found it,</div>
+    <div class="verse indent2">Wherever it blew,</div>
+    <div class="verse indent0">I should know that the wind</div>
+    <div class="verse indent2">Had been going there too.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">So then I could tell them</div>
+    <div class="verse indent2">Where the wind goes....</div>
+    <div class="verse indent0">But where the wind comes from</div>
+    <div class="verse indent2"><i>Nobody</i> knows.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus135" style="max-width: 51em;">
+  <img class="w100" src="images/illus135.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="FORGOTTEN">&nbsp;</h3>
+
+<div class="figcenter illowp100" id="illus136" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus136.jpg" alt="">
+</div>
+
+<h3>FORGOTTEN</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">Lords of the Nursery</div>
+    <div class="verse indent2">Wait in a row,</div>
+    <div class="verse indent0">Five on the high wall,</div>
+    <div class="verse indent2">And four on the low;</div>
+    <div class="verse indent0">Big Kings and Little Kings,</div>
+    <div class="verse indent2">Brown Bears and Black,</div>
+    <div class="verse indent0">All of them waiting</div>
+    <div class="verse indent2">Till John comes back.</div>
+  </div>
+
+<div class="figcenter illowp34" id="illus137" style="max-width: 14.5em;">
+  <img class="w100" src="images/illus137.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Some think that John boy</div>
+    <div class="verse indent2">Is lost in the wood,</div>
+    <div class="verse indent0">Some say he couldn't be,</div>
+    <div class="verse indent2">Some say he could.</div>
+    <div class="verse indent0">Some think that John boy</div>
+    <div class="verse indent2">Hides on the hill;</div>
+    <div class="verse indent0">Some say he won't come back,</div>
+    <div class="verse indent2">Some say he will.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">High was the sun, when</div>
+    <div class="verse indent2">John went away....</div>
+    <div class="verse indent0">Here they've been waiting</div>
+    <div class="verse indent2">All through the day;</div>
+    <div class="verse indent0">Big Bears and Little Bears,</div>
+    <div class="verse indent2">White Kings and Black,</div>
+    <div class="verse indent0">All of them waiting</div>
+    <div class="verse indent2">Till John comes back.</div>
+  </div>
+
+<div class="figcenter illowp93" id="illus138" style="max-width: 38.9375em;">
+  <img class="w100" src="images/illus138.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Lords of the Nursery</div>
+    <div class="verse indent2">Looked down the hill,</div>
+    <div class="verse indent0">Some saw the sheep-fold,</div>
+    <div class="verse indent2">Some saw the mill;</div>
+    <div class="verse indent0">Some saw the roofs</div>
+    <div class="verse indent2">Of the little grey town....</div>
+    <div class="verse indent0">And their shadows grew long</div>
+    <div class="verse indent2">As the sun slipt down.</div>
+  </div>
+
+<div class="figcenter illowp87" id="illus139" style="max-width: 36.4375em;">
+  <img class="w100" src="images/illus139.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Gold between the poplars</div>
+    <div class="verse indent2">An old moon shows;</div>
+    <div class="verse indent0">Silver up the star-way</div>
+    <div class="verse indent2">The full moon rose;</div>
+    <div class="verse indent0">Silver down the star-way</div>
+    <div class="verse indent2">The old moon crept....</div>
+    <div class="verse indent0">And, one by another,</div>
+    <div class="verse indent2">The grey fields slept.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">Lords of the Nursery</div>
+    <div class="verse indent2">Their still watch keep....</div>
+    <div class="verse indent0">They hear from the sheep-fold</div>
+    <div class="verse indent2">The rustle of sheep.</div>
+    <div class="verse indent0">A young bird twitters</div>
+    <div class="verse indent2">And hides its head;</div>
+    <div class="verse indent0">A little wind suddenly</div>
+    <div class="verse indent2">Breathes, and is dead.</div>
+  </div>
+
+<div class="figcenter illowp100" id="illus140" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus140.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">Slowly and slowly</div>
+    <div class="verse indent2">Dawns the new day....</div>
+    <div class="verse indent0">What's become of John boy?</div>
+    <div class="verse indent2">No one can say.</div>
+    <div class="verse indent0">Some think that John boy</div>
+    <div class="verse indent2">Is lost on the hill;</div>
+    <div class="verse indent0">Some say he won't come back,</div>
+    <div class="verse indent2">Some say he will.</div>
+  </div>
+
+<div class="figcenter illowp39" id="illus141" style="max-width: 16.25em;">
+  <img class="w100" src="images/illus141.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0"><i>What's become of John boy?</i></div>
+    <div class="verse indent2"><i>Nothing at all,</i></div>
+    <div class="verse indent0"><i>He played with his skipping rope,</i></div>
+    <div class="verse indent2"><i>He played with his ball.</i></div>
+    <div class="verse indent0"><i>He ran after butterflies,</i></div>
+    <div class="verse indent2"><i>Blue ones and red;</i></div>
+    <div class="verse indent0"><i>He did a hundred happy things—</i></div>
+    <div class="verse indent2"><i>And then went to bed.</i></div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp100" id="illus142" style="max-width: 40.625em;">
+  <img class="w100" src="images/illus142.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="IN_THE_DARK">&nbsp;</h3>
+
+<div class="figcenter illowp81" id="illus143" style="max-width: 33.8125em;">
+  <img class="w100" src="images/illus143.jpg" alt="">
+</div>
+
+<h3>IN THE DARK</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent0">I've had my supper,</div>
+    <div class="verse indent2">And <i>had</i> my supper,</div>
+    <div class="verse indent4">And <i>HAD</i> my supper and all;</div>
+    <div class="verse indent0">I've heard the story</div>
+    <div class="verse indent2">Of Cinderella,</div>
+    <div class="verse indent4">And how she went to the ball;</div>
+    <div class="verse indent0">I've cleaned my teeth,</div>
+    <div class="verse indent2">And I've said my prayers,</div>
+    <div class="verse indent4">And I've cleaned and said them right;</div>
+    <div class="verse indent0">And they've all of them been</div>
+    <div class="verse indent2">And kissed me lots,</div>
+    <div class="verse indent4">They've all of them said "Good-night."</div>
+  </div>
+
+<div class="figcenter illowp57" id="illus144" style="max-width: 24.0625em;">
+  <img class="w100" src="images/illus144.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">So—here I am in the dark alone,</div>
+    <div class="verse indent2">There's nobody here to see;</div>
+    <div class="verse indent8">I think to myself,</div>
+    <div class="verse indent8">I play to myself,</div>
+    <div class="verse indent4">And nobody knows what I say to myself;</div>
+    <div class="verse indent0">Here I am in the dark alone,</div>
+    <div class="verse indent4">What is it going to be?</div>
+    <div class="verse indent0">I can think whatever I like to think,</div>
+    <div class="verse indent0">I can play whatever I like to play,</div>
+    <div class="verse indent0">I can laugh whatever I like to laugh,</div>
+    <div class="verse indent4">There's nobody here but me.</div>
+  </div>
+
+<div class="figcenter illowp74" id="illus145" style="max-width: 30.875em;">
+  <img class="w100" src="images/illus145.jpg" alt="">
+</div>
+
+  <div class="stanza">
+    <div class="verse indent0">I'm talking to a rabbit ...</div>
+    <div class="verse indent4">I'm talking to the sun ...</div>
+    <div class="verse indent0">I think I am a hundred—</div>
+    <div class="verse indent4">I'm one.</div>
+    <div class="verse indent0">I'm lying in a forest ...</div>
+    <div class="verse indent4">I'm lying in a cave ...</div>
+    <div class="verse indent0">I'm talking to a Dragon ...</div>
+    <div class="verse indent4">I'm BRAVE.</div>
+    <div class="verse indent0">I'm lying on my left side ...</div>
+    <div class="verse indent4">I'm lying on my right ...</div>
+    <div class="verse indent0">I'll play a lot to-morrow ...</div>
+    <div class="verse indent4"> .......</div>
+    <div class="verse indent0">I'll think a lot to-morrow ...</div>
+    <div class="verse indent4"> .......</div>
+    <div class="verse indent0">I'll laugh ...</div>
+    <div class="verse indent12">a lot ...</div>
+    <div class="verse indent20">to-morrow ...</div>
+    <div class="verse indent12">(<i>Heigh-ho!</i>)</div>
+    <div class="verse indent22">Good-night.</div>
+  </div>
+</div>
+</div>
+
+<div class="figcenter illowp90" id="illus146" style="max-width: 37.5em;">
+  <img class="w100" src="images/illus146.jpg" alt="">
+</div>
+
+<hr class="chap">
+
+
+<h3 id="THE_END">&nbsp;</h3>
+
+<div class="figcenter illowp84" id="illus147" style="max-width: 35em;">
+  <img class="w100" src="images/illus147.jpg" alt="">
+</div>
+
+<h3>THE END</h3>
+
+<div class="poetry-container">
+<div class="poetry">
+  <div class="stanza">
+    <div class="verse indent10">When I was One,</div>
+    <div class="verse indent10">I had just begun.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">When I was Two,</div>
+    <div class="verse indent10">I was nearly new.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">When I was Three,</div>
+    <div class="verse indent10">I was hardly Me.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">When I was Four,</div>
+    <div class="verse indent10">I was not much more.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent10">When I was Five,</div>
+    <div class="verse indent10">I was just alive.</div>
+  </div>
+  <div class="stanza">
+    <div class="verse indent0">But now I am Six, I'm as clever as clever.</div>
+    <div class="verse indent0">So I think I'll be six now for ever and ever.</div>
+  </div>
+</div>
+</div>
+
+<hr class="tb">
+
+<h3>NEW UNIFORM EDITION</h3>
+
+<p class="ph1">These inimitable and imperishable Milne classics with the Shepard
+drawings are now available, <i>for the first time</i>, in a new
+edition, uniform with this volume.</p>
+
+
+<h3>WHEN WE WERE VERY YOUNG</h3>
+
+<p class="ph1">The most popular book of child-verse of modern times.</p>
+
+
+<h3>NOW WE ARE SIX</h3>
+
+<p class="ph1">A companion volume of verse to When We Were Very Young</p>
+
+
+<h3>WINNIE-THE-POOH</h3>
+
+<p class="ph1">Pooh and Christopher Robin are among the most treasured characters of
+story-land.</p>
+
+
+<h3>THE HOUSE AT POOH CORNER</h3>
+
+<p class="ph1">There just had to be another story about Christopher Robin and his
+seven friends—Pooh, Piglet, Owl, Tigger, etc.</p>
+
+
+<h3><i>Published by</i> E. P. DUTTON &amp; CO., INC.</h3>
+
+<hr class="chap">
+
+
+<h3>OTHER BOOKS FOR BOYS AND GIRLS</h3>
+
+<p class="ph1"><i>By</i> A. A. MILNE</p>
+
+
+<h3>THE CHRISTOPHER ROBIN VERSES</h3>
+
+<p class="ph1">Fully illustrated by E. H. SHEPARD, with 12 plates in color</p>
+
+
+<h3>THE CHRISTOPHER ROBIN STORY BOOK</h3>
+
+<p class="ph1">Illustrated by E. H. SHEPARD</p>
+
+
+<h3>THE CHRISTOPHER ROBIN BIRTHDAY BOOK</h3>
+
+<p class="ph1">Illustrated by E. H. SHEPARD</p>
+
+
+<h3>THE CHRISTOPHER ROBIN READER</h3>
+
+<p class="ph1">Collected by A. A. MILNE from his four books of poetry and prose,
+including selections recommended by the New York City Board of
+Education.</p>
+
+
+<h3>SONG-BOOKS FROM THE POEMS OF A. A. MILNE</h3>
+
+<p class="ph1">With Music by H. FRASER-SIMSON and Decorations by E. H. SHEPARD</p>
+
+<p class="ph1">FOURTEEN SONGS<br>
+TEDDY BEAR AND OTHER SONGS<br>
+SONGS FROM "NOW WE ARE SIX"<br>
+THE KING'S BREAKFAST<br>
+MORE "VERY YOUNG" SONGS<br>
+THE HUMS OF POOH</p>
+
+<hr class="chap">
+
+<div class="figcenter illowp93" id="ep" style="max-width: 39.0625em;">
+  <img class="w100" src="images/ep.jpg" alt="">
+</div>
+
+<div class="figcenter illowp44" id="bcover" style="max-width: 18.5625em;">
+  <img class="w100" src="images/bcover.jpg" alt="">
+</div>
+
+</body>
+</html>
+
